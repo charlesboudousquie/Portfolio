@@ -1,0 +1,65 @@
+{
+    "name": "Game_HUD",
+    "style": "game_hud.css",
+    "actions": [],
+    "children": [
+        {
+            "name": "health",
+            "style": "game_hud.css",
+            "text": "%{PLAYER_HEALTH} %%",
+            "actions": [],
+            "children": []
+        },
+        {
+            "name": "current_color",
+            "style": "game_hud.css",
+            "text": "%{FLASHLIGHT_COLOR}",
+            "actions": [],
+            "children": []
+        },
+        {
+            "name": "current_effect",
+            "style": "game_hud.css",
+            "text": "%{LIGHT_EFFECT}",
+            "actions": [],
+            "children": []
+        },
+        {
+            "name": "reticle",
+            "style": "game_hud.css",
+            "image": "reticle.png",
+            "actions": [ "ondraw;@check_reticle_type"],
+            "children": []
+        },
+        {
+            "name": "instructions",
+            "style": "game_hud.css",
+            "text": "",
+            "actions": [],
+            "children": [
+                {
+                    "name": "instr_lantern",
+                    "style": "game_hud.css",
+                    "text": "F: Cycle Lantern",
+                    "actions": [],
+                    "children": []
+                },
+                {
+                    "name": "instr_pickup",
+                    "style": "game_hud.css",
+                    "text": "LMB: Pick up/Drop",
+                    "actions": [],
+                    "children": []
+                },
+                {
+                    "name": "instr_throw",
+                    "style": "game_hud.css",
+                    "text": "RMB: Throw/Retrieve",
+                    "actions": [],
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
+

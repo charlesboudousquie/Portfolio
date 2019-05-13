@@ -1,0 +1,2289 @@
+{
+  "BlueCone": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cone4"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 4,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -21.851947784423828,
+        "Y": 18.123577117919922,
+        "Z": 193.1288299560547
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "ClickCancel": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -12.493047714233398,
+        "Y": 16.909692764282227,
+        "Z": 118.76383972167969
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightBlue": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        0.9999993443489075,
+        0.9999993443489075
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 0.9999992847442627,
+        "Z": 0.9999992847442627
+      },
+      "Translation": {
+        "X": -20.55669403076172,
+        "Y": 15.43957805633545,
+        "Z": -15.085386276245117
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightBlue id2": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        12.950419425964355,
+        35.49597930908203,
+        12.950419425964355
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 12.950401306152344,
+        "Y": 35.495967864990234,
+        "Z": 12.950393676757813
+      },
+      "Translation": {
+        "X": -2.848484516143799,
+        "Y": -18.689096450805664,
+        "Z": 32.16920471191406
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightBlue id2 id4": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        12.950419425964355,
+        35.4959602355957,
+        12.950425148010254
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 12.950401306152344,
+        "Y": 35.495948791503906,
+        "Z": 12.950390815734863
+      },
+      "Translation": {
+        "X": -3.0182390213012695,
+        "Y": -49.908626556396484,
+        "Z": 33.668609619140625
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightBlue id2 id4 id8": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        12.950419425964355,
+        35.495948791503906,
+        12.950430870056152
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 12.950401306152344,
+        "Y": 35.49593734741211,
+        "Z": 12.950394630432129
+      },
+      "Translation": {
+        "X": -3.0182390213012695,
+        "Y": -90.26834869384766,
+        "Z": 31.5382137298584
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightGreen": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        0.9999993443489075,
+        0.9999993443489075
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 0.9999992847442627,
+        "Z": 0.9999992847442627
+      },
+      "Translation": {
+        "X": -20.55669403076172,
+        "Y": 15.683416366577148,
+        "Z": -17.446990966796875
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightGreen id3": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        14.886452674865723,
+        35.74068832397461,
+        14.886462211608887
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 14.886384010314941,
+        "Y": 35.74065399169922,
+        "Z": 14.886406898498535
+      },
+      "Translation": {
+        "X": -3.862398147583008,
+        "Y": -17.820140838623047,
+        "Z": 31.537689208984375
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightGreen id3 id6": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        14.885944366455078,
+        35.740631103515625,
+        14.886393547058105
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 14.885859489440918,
+        "Y": 35.740596771240234,
+        "Z": 14.886340141296387
+      },
+      "Translation": {
+        "X": -2.8656578063964844,
+        "Y": -51.97257614135742,
+        "Z": 31.426979064941406
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightRed": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        0.9999993443489075,
+        0.9999993443489075
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 0.9999992847442627,
+        "Z": 0.9999992847442627
+      },
+      "Translation": {
+        "X": -20.55669403076172,
+        "Y": 15.683416366577148,
+        "Z": -19.02585792541504
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightRed id9": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        14.619142532348633,
+        33.3076286315918,
+        14.619117736816406
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0
+    },
+    "Transform": {
+      "Rotation": {
+        "X": -1.076094388961792,
+        "Y": 0.0680156946182251,
+        "Z": 0.20294003188610077
+      },
+      "Scale": {
+        "X": 14.619125366210938,
+        "Y": 33.3076286315918,
+        "Z": 14.619100570678711
+      },
+      "Translation": {
+        "X": -4.618146896362305,
+        "Y": -90.89927673339844,
+        "Z": 29.765222549438477
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Object#12884901901": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 74.92119598388672,
+        "Y": -54.63370132446289,
+        "Z": -6.5485334396362305
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "OuterFloor": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "OuterFloors"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 7,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -8.477163314819336,
+        "Y": 15.119434356689453,
+        "Z": 193.86558532714844
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Passage1": {
+    "Children": [
+      {
+        "Roof1": {
+          "ModelComponent": {
+            "Materials": [
+              {
+                "name": "pbr_cliffRock"
+              }
+            ],
+            "MeshTransforms": [
+              {
+                "Rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "ModelHandle": "OuterWall1B"
+          },
+          "Physics": {
+            "Acceleration": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundingbox": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "controltype": 0,
+            "customGravity": false,
+            "mass": 1.0,
+            "pGravity": [
+              0.0,
+              -10.0,
+              0.0
+            ],
+            "planeConstant": 1.0,
+            "planeNormal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "radius": 1.0,
+            "shape": 7,
+            "trigger": false,
+            "type": 0,
+            "velocity": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Transform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "Translation": {
+              "X": -4.701173782348633,
+              "Y": 16.88922691345215,
+              "Z": 68.904296875
+            },
+            "moveX": true,
+            "moveY": true,
+            "moveZ": true,
+            "rotateX": true,
+            "rotateY": true,
+            "rotateZ": true
+          }
+        }
+      }
+    ],
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Section1"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 7,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 0.9918000102043152,
+        "Y": 0.9918000102043152,
+        "Z": 0.9918000102043152
+      },
+      "Translation": {
+        "X": -5.048964500427246,
+        "Y": -51.573936462402344,
+        "Z": 68.44805908203125
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Passage2": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "section2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 7,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -5.048964500427246,
+        "Y": -111.64013671875,
+        "Z": -54.25368881225586
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Passage3": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "section3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 7,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 7.029095649719238,
+        "Y": -109.72539520263672,
+        "Z": -201.8451385498047
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "PlayerSample": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 0.9999420642852783,
+      "shape": 0,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        -0.3333333432674408,
+        0.0
+      ]
+    },
+    "Player": null,
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 0.9999332427978516,
+        "Y": 0.999980092048645,
+        "Z": 0.9999700784683228
+      },
+      "Translation": {
+        "X": -4.618146896362305,
+        "Y": -90.89927673339844,
+        "Z": 39.765220642089844
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Pushblock": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.429999828338623,
+        1.429999828338623,
+        1.429999589920044
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.429999828338623,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        4.0429673390462995e-05,
+        0.00013583898544311523,
+        0.00012106984650017694
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.429999828338623,
+        "Y": 1.429999828338623,
+        "Z": 1.429999589920044
+      },
+      "Translation": {
+        "X": -4.550796985626221,
+        "Y": -110.95803833007813,
+        "Z": -153.26947021484375
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Pushblock id10": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.429999828338623,
+        1.429999589920044,
+        1.429999828338623
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.429999828338623,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        -1490.6986083984375,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.429999828338623,
+        "Y": 1.429999589920044,
+        "Z": 1.429999828338623
+      },
+      "Translation": {
+        "X": -49570.7734375,
+        "Y": -246339.140625,
+        "Z": -955.6747436523438
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Pushblock id11": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.4299999475479126,
+        1.429999828338623,
+        1.4299999475479126
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.429999828338623,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        -7.18087676432333e-07,
+        0.0001856088638305664,
+        0.00010335035040043294
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.4299999475479126,
+        "Y": 1.429999828338623,
+        "Z": 1.4299999475479126
+      },
+      "Translation": {
+        "X": -5.993368625640869,
+        "Y": -110.95803833007813,
+        "Z": -153.34210205078125
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Pushblock id11 id12": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.429999828338623,
+        1.429999828338623,
+        1.429999828338623
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.429999828338623,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        -1.971782694454305e-05,
+        9.629130363464355e-05,
+        -1.919130954775028e-05
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.429999828338623,
+        "Y": 1.429999828338623,
+        "Z": 1.429999828338623
+      },
+      "Translation": {
+        "X": -7.585360527038574,
+        "Y": -110.9580307006836,
+        "Z": -153.31253051757813
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Pushblock id11 id12 id13": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.429999828338623,
+        0.7865017652511597,
+        1.429999828338623
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.429999828338623,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        -6.927344742280184e-08,
+        9.15825366973877e-05,
+        -0.00011829211871372536
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.429999828338623,
+        "Y": 0.7865017652511597,
+        "Z": 1.429999828338623
+      },
+      "Translation": {
+        "X": -8.276681900024414,
+        "Y": -111.27978515625,
+        "Z": -209.1305694580078
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Pushblock id11 id12 id13 id14": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.429999828338623,
+        0.7865017652511597,
+        1.429999828338623
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.429999828338623,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        -1.262756995856762e-05,
+        0.000102996826171875,
+        -0.00012197357136756182
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.429999828338623,
+        "Y": 0.7865017652511597,
+        "Z": 1.429999828338623
+      },
+      "Translation": {
+        "X": 0.9678847789764404,
+        "Y": -109.48545837402344,
+        "Z": -227.91822814941406
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Roof1": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "OuterWall1B"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 7,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -4.701173782348633,
+        "Y": 16.88922691345215,
+        "Z": 68.904296875
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Roof2": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "outerwall2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 7,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -4.533568382263184,
+        "Y": -111.04243469238281,
+        "Z": -54.25368881225586
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Roof3": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "outerwall3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "shape": 7,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 0.9999664425849915,
+        "Y": 0.9999746680259705,
+        "Z": 0.9999793767929077
+      },
+      "Translation": {
+        "X": 6.590357780456543,
+        "Y": -104.40596008300781,
+        "Z": -203.42176818847656
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  }
+}

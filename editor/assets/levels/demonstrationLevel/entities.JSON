@@ -1,0 +1,75 @@
+{
+  "Behavior": null,
+  "Object#4 id8": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "sphere"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 1.0,
+        "X": 0.10000000149011612,
+        "Y": 0.10000000149011612,
+        "Z": 0.10000000149011612
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 46.327,
+        "Y": 21.563,
+        "Z": 44.115
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  }
+}

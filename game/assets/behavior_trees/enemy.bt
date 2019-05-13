@@ -1,0 +1,4 @@
+C_Sequence 1
+L_TargetPlayer 2
+D_RepeatForever 2
+L_MoveToTargetAtSpeed 3 5 5

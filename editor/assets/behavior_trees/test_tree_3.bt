@@ -1,0 +1,3 @@
+L_DebugCounter 1 20
+I_Timer 1 10
+L_DebugMessage 2 "Stop!"

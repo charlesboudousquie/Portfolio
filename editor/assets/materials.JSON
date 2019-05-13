@@ -1,0 +1,95 @@
+{
+  "MothColorMaterial": {
+    "albedo": "Moth_color1",
+    "ao_map": "White",
+    "emissive_map": "black",
+    "height_map": "White",
+    "metallic": "White",
+    "normal_map": "Paint_Scratched_normal",
+    "roughness": "White",
+    "type": "PBR"
+  },  
+  "TurretColorMaterial": {
+    "albedo": "TurretHeadUV1",
+    "ao_map": "White",
+    "emissive_map": "black",
+    "height_map": "Black",
+    "metallic": "White",
+    "normal_map": "Paint_Scratched_normal",
+    "roughness": "Black",
+    "type": "PBR"
+  }, 
+  "CyanLevelMaterial":
+  {
+    "albedo": "CyanLevel_albedo",
+    "ao_map": "CyanLevel_ao",
+    "emissive_map": "Black",
+    "height_map": "CyanLevel_height",
+    "metallic": "CyanLevel_metallic",
+    "normal_map": "CyanLevel_normal",
+    "roughness": "CyanLevel_roughness",
+    "type": "PBR"
+  },
+  "MagentaLevelMaterial":
+  {
+    "albedo": "MagentaLevel_albedo",
+    "ao_map": "MagentaLevel_ao",
+    "emissive_map": "Black",
+    "height_map": "MagentaLevel_height",
+    "metallic": "MagentaLevel_metallic",
+    "normal_map": "MagentaLevel_normal",
+    "roughness": "MagentaLevel_roughness",
+    "type": "PBR"
+  },
+  "YellowLevelMaterial":
+  {
+    "albedo": "YellowLevel_albedo",
+    "ao_map": "YellowLevel_ao",
+    "emissive_map": "Black",
+    "height_map": "YellowLevel_height",
+    "metallic": "YellowLevel_metallic",
+    "normal_map": "YellowLevel_normal",
+    "roughness": "YellowLevel_roughness",
+    "type": "PBR"
+  },
+  "Rock_StonewallCladding": {
+    "albedo": "Rock_Stonewall_Cladding_albedo",
+    "ao_map": "Rock_Stonewall_Cladding_ao",
+    "emissive_map": "black",
+    "height_map": "Rock_Stonewall_Cladding_height",
+    "metallic": "Black",
+    "normal_map": "Rock_Stonewall_Cladding_normal",
+    "roughness": "Rock_Stonewall_Cladding_roughness",
+    "type": "PBR"
+  },
+  "pbr_cliffRock": {
+    "albedo": "Rock_CliffDesert_albedo",
+    "ao_map": "Rock_CliffDesert_ao",
+    "emissive_map": "Black",
+    "height_map": "Rock_CliffDesert_height",
+    "metallic": "Black",
+    "normal_map": "Rock_CliffDesert_normal",
+    "roughness": "Rock_CliffDesert_roughness",
+    "type": "PBR"
+  },
+  "pbr_paintScratched": {
+    "albedo": "Paint_Scratched_albedo",
+    "ao_map": "White",
+    "emissive_map": "Black",
+    "height_map": "Black",
+    "metallic": "Paint_Scratched_metallic",
+    "normal_map": "Paint_Scratched_normal",
+    "roughness": "Paint_Scratched_roughness",
+    "type": "PBR"
+  },
+  "pbr_tilesBroken": {
+    "albedo": "Tiles_Broken_albedo",
+    "ao_map": "Tiles_Broken_ao",
+    "emissive_map": "Black",
+    "height_map": "Tiles_Broken_height",
+    "metallic": "Black",
+    "normal_map": "Tiles_Broken_normal",
+    "roughness": "Tiles_Broken_roughness",
+    "type": "PBR"
+  }
+}

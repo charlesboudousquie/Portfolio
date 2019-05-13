@@ -1,0 +1,82 @@
+{
+  "Object#12884901888": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "MainIntroCaveLevel2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "controltype": -858993460,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 0.0,
+      "planeNormal": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius": 0.5,
+      "shape": 0,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 41.0,
+        "Y": 21.563243865966797,
+        "Z": 54.11518859863281
+      }
+    }
+  }
+}

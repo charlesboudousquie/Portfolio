@@ -1,0 +1,21 @@
+{
+	"name": "Options Menu UI",
+	"style": "options_menu.css",
+	"actions": [],
+	"children": [
+		{
+			"name": "drawn_sound_number",
+			"style": "options_menu.css",
+			"text": "Sound Volume %{MY_FORMAT_SPECIFIER_SOUND}",
+			"actions": [],
+			"children": []
+		},
+	    {
+	      "name": "drawn_mouse_number",
+				"style": "options_menu.css",
+				"text": "Mouse Sensitivity %{MY_FORMAT_SPECIFIER_MOUSE}",
+				"actions": [],
+				"children": []
+	    }
+	]
+}

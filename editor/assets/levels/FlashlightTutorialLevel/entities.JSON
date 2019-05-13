@@ -1,0 +1,4376 @@
+{
+  "BlueLightCylinder": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 15.799,
+        "Y": 21.505,
+        "Z": 50.021
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "BlueLightCylinder id17": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 15.205,
+        "Y": 21.505,
+        "Z": -66.638
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "BlueLightCylinder id17 id18": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 12.74,
+        "Y": 21.505,
+        "Z": -75.526
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "BlueLightCylinder id17 id18 id19": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 14.09,
+        "Y": 21.505,
+        "Z": -84.311
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "BlueLightCylinder id17 id18 id19 id20": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        18.699981689453125,
+        93.50028228759766,
+        18.69999885559082
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 18.7,
+        "Y": 93.5,
+        "Z": 18.7
+      },
+      "Translation": {
+        "X": 25.102,
+        "Y": 21.505,
+        "Z": -37.979
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Door": {
+    "EndZone": {
+      "IsActive": true,
+      "IsEndOfGame": true,
+      "LevelToLoad": "demonstrationLevel"
+    },
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        1.915199875831604,
+        11.001903533935547,
+        6.416367530822754
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 11.001903533935547,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 4.8520002365112305,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.915,
+        "Y": 11.002,
+        "Z": 6.416
+      },
+      "Translation": {
+        "X": -30.342,
+        "Y": 11.679,
+        "Z": 48.67
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Flashlight": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "coneMesh"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        15.0,
+        50.0,
+        15.0
+      ],
+      "controltype": 2,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 15.0,
+      "restitution": 0.0,
+      "shape": 4,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 1.754,
+        "Y": -0.126,
+        "Z": 3.139
+      },
+      "Scale": {
+        "X": 15.0,
+        "Y": 50.0,
+        "Z": 15.0
+      },
+      "Translation": {
+        "X": -8.083,
+        "Y": 4.551,
+        "Z": -29.209
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "GreenLightCylinder": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": -6.456,
+        "Y": 21.505,
+        "Z": 48.116
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "GreenLightCylinder id14": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": -13.405,
+        "Y": 21.505,
+        "Z": -49.733
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "GreenLightCylinder id14 id15": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": -5.052,
+        "Y": 21.505,
+        "Z": -54.21
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "GreenLightCylinder id14 id15 id16": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 4.218,
+        "Y": 21.505,
+        "Z": -54.919
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LevelMesh": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "FlashlightLevelBody"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 7,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -10.0
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Object#206158430208": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        1.0,
+        50.0,
+        200.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 200.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 50.0,
+        "Z": 200.0
+      },
+      "Translation": {
+        "X": -18.98,
+        "Y": 13.325,
+        "Z": -93.264
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Object#206158430208 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        1.0,
+        50.0,
+        200.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 200.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 50.0,
+        "Z": 200.0
+      },
+      "Translation": {
+        "X": 35.959,
+        "Y": 13.325,
+        "Z": -9.333
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Player": {
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        3.000000476837158,
+        3.0,
+        3.000000476837158
+      ],
+      "controltype": 3,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -30.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 3,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Player": {
+      "blue": true,
+      "grabdistance": 5.0,
+      "green": true,
+      "holdingThreshold": 1.0,
+      "jumpHeight": 10.0,
+      "red": true,
+      "returnvelocity": 200.0,
+      "speed": 25.0,
+      "strength": 50.0,
+      "timetospeed": 0.10000000149011612
+    },
+    "Sound": {
+      "paths": [
+        "event:/TestEvent",
+        "event:/TestTone"
+      ],
+      "types": [
+        2,
+        3
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.012,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 3.0,
+        "Y": 3.0,
+        "Z": 3.0
+      },
+      "Translation": {
+        "X": -5.934,
+        "Y": 9.289,
+        "Z": -3.724
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": true,
+      "rotateZ": false
+    }
+  },
+  "Point Light id21": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 6.435999870300293,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -14.682,
+        "Y": 21.859,
+        "Z": 2.472
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.0799999237060547,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -16.621,
+        "Y": 14.097,
+        "Z": -37.573
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 1.082,
+        "Y": 15.743,
+        "Z": -37.044
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -7.834,
+        "Y": 15.743,
+        "Z": -74.114
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 21.098,
+        "Y": 15.743,
+        "Z": -85.522
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 31.971,
+        "Y": 21.806,
+        "Z": -38.317
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26 id27": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 18.804,
+        "Y": 21.59,
+        "Z": 10.297
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26 id28": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 31.487,
+        "Y": 21.806,
+        "Z": 8.844
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26 id28 id29": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 2.047,
+        "Y": 21.806,
+        "Z": 42.174
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26 id28 id29 id30": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 0.983,
+        "Y": 21.806,
+        "Z": 53.882
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26 id28 id29 id30 id31": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 19.681,
+        "Y": 21.806,
+        "Z": 63.38
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26 id28 id29 id30 id31 id32": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 2.2780001163482666,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 19.681,
+        "Y": 21.806,
+        "Z": 35.864
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26 id28 id29 id30 id31 id32 id33": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 5.8420000076293945,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -21.492,
+        "Y": 21.806,
+        "Z": 46.962
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Point Light id22 id23 id24 id25 id26 id28 id29 id30 id31 id32 id33 id34": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 5.644000053405762,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -21.492,
+        "Y": 21.806,
+        "Z": 50.184
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "PushLightBox": {
+    "Children": [
+      {
+        "GreenLightBox": {
+          "ModelComponent": {
+            "Materials": [
+              {
+                "name": "ghost_color_green"
+              }
+            ],
+            "MeshTransforms": [
+              {
+                "Rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "ModelHandle": "sphere"
+          },
+          "Physics": {
+            "Acceleration": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ChangeTime": 2.0,
+            "Continuous": false,
+            "LightAffected": true,
+            "angulardrag": 0.05000000074505806,
+            "boundingbox": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "controltype": 2,
+            "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
+            "mass": 1.0,
+            "pGravity": [
+              0.0,
+              -10.0,
+              0.0
+            ],
+            "planeConstant": 1.0,
+            "planeNormal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "radius": 2.5597052574157715,
+            "restitution": 0.0,
+            "shape": 0,
+            "trigger": true,
+            "type": 1,
+            "velocity": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "PuzzleLightComponent": {
+            "LightColor": 1,
+            "UseBlue": true,
+            "UseGreen": true,
+            "UseRed": true
+          },
+          "SpotLightComponent": {
+            "Ambient": {
+              "W": 0.0,
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Diffuse": {
+              "W": 1.0,
+              "X": 0.23809516429901123,
+              "Y": 1.0,
+              "Z": 0.0
+            },
+            "Direction": {
+              "W": 0.0,
+              "X": 0.0,
+              "Y": 1.0,
+              "Z": 0.0
+            },
+            "FallOff": 0.0,
+            "InnerAngle": 0.2617993950843811,
+            "OuterAngle": 1.0471975803375244,
+            "PADDING": -431602080.0,
+            "Point": {
+              "W": 0.0,
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          },
+          "Transform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 2.56,
+              "Y": 2.56,
+              "Z": 2.56
+            },
+            "Translation": {
+              "X": 1.822,
+              "Y": 2.239,
+              "Z": 0.239
+            },
+            "moveX": true,
+            "moveY": true,
+            "moveZ": true,
+            "rotateX": true,
+            "rotateY": true,
+            "rotateZ": true
+          }
+        }
+      }
+    ],
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        1.552000880241394,
+        1.552000880241394,
+        1.552000880241394
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.552,
+        "Y": 1.552,
+        "Z": 1.552
+      },
+      "Translation": {
+        "X": 23.176,
+        "Y": 6.668,
+        "Z": -5.857
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "PushLightBox id3": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        5.958276748657227,
+        0.651898205280304,
+        17.839950561523438
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": -0.002,
+        "Y": 0.001,
+        "Z": -0.001
+      },
+      "Scale": {
+        "X": 5.958,
+        "Y": 0.652,
+        "Z": 17.84
+      },
+      "Translation": {
+        "X": 23.931,
+        "Y": -10.28,
+        "Z": -48.606
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightCone id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cone4"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        10.0,
+        50.000038146972656,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 10.0,
+      "restitution": 0.0,
+      "shape": 4,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.4712388813495636,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": -8.148,
+        "Y": 22.208,
+        "Z": -14.151
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightCone id0 id11": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cone4"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        10.0,
+        50.000038146972656,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 10.0,
+      "restitution": 0.0,
+      "shape": 4,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.4712388813495636,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 66.152,
+        "Y": 22.208,
+        "Z": -14.151
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightCone id0 id11 id12": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cone4"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        10.0,
+        50.000038146972656,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 10.0,
+      "restitution": 0.0,
+      "shape": 4,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.4712388813495636,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 65.138,
+        "Y": 22.208,
+        "Z": 1.084
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightCone id0 id11 id12 id13": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cone4"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        10.0,
+        50.000038146972656,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 10.0,
+      "restitution": 0.0,
+      "shape": 4,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.4712388813495636,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 65.516,
+        "Y": 22.208,
+        "Z": 18.032
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightCylinder": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 3.966,
+        "Y": 21.505,
+        "Z": 48.245
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightCylinder id1": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 26.183,
+        "Y": 19.504,
+        "Z": 58.668
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightCylinder id1 id2": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.99998950958252,
+        50.00014114379883,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": false,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 0.3141592741012573,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": -24.926,
+        "Y": 19.504,
+        "Z": 38.477
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightEmitter": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.090000033378601,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.036651913076639175,
+      "OuterAngle": 0.2617993950843811,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -14.213,
+        "Y": 34.457,
+        "Z": 46.049
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Sentry1": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "TurretModel"
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 3.141,
+        "Y": -0.422,
+        "Z": 3.141
+      },
+      "Scale": {
+        "X": 1.482,
+        "Y": 1.482,
+        "Z": 1.482
+      },
+      "Translation": {
+        "X": 28.975,
+        "Y": 6.444,
+        "Z": 62.125
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Sentry1 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "TurretModel"
+    },
+    "Transform": {
+      "Rotation": {
+        "X": -0.0,
+        "Y": -0.178,
+        "Z": -0.001
+      },
+      "Scale": {
+        "X": 1.482,
+        "Y": 1.482,
+        "Z": 1.482
+      },
+      "Translation": {
+        "X": -28.674,
+        "Y": 11.306,
+        "Z": 33.291
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Spike": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        100.00001525878906,
+        50.000022888183594,
+        200.0001220703125
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 200.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.016,
+        "Y": -0.003,
+        "Z": 0.001
+      },
+      "Scale": {
+        "X": 100.0,
+        "Y": 50.0,
+        "Z": 200.0
+      },
+      "Translation": {
+        "X": -16.194,
+        "Y": -37.105,
+        "Z": 1.806
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Turret Bullet": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controltype": 2,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": true,
+      "type": 0,
+      "velocity": [
+        5.217673301696777,
+        -0.802383542060852,
+        -8.493060111999512
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": -26.065,
+        "Y": 10.905,
+        "Z": 29.044
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  }
+}

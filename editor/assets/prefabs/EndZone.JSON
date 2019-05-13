@@ -1,0 +1,122 @@
+{
+  "EndZone": {
+    "EndZone": {
+      "IsActive": true,
+      "IsEndOfGame": false,
+      "LevelToLoad": "MagentaLevelAgain"
+    },
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        5.271935939788818,
+        8.327564239501953,
+        1.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 8.327564239501953,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 5.248000144958496,
+        "X": 0.11764705181121826,
+        "Y": 0.8424481153488159,
+        "Z": 1.0
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "PrefabComponent": {
+      "Prefab Name": "EndZone"
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 5.272,
+        "Y": 8.328,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 30.599,
+        "Y": 15.826,
+        "Z": -124.303
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  }
+}

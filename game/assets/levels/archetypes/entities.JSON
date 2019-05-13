@@ -1,0 +1,94 @@
+{
+ "EnemyTurretBullet": {
+   "ModelComponent": {
+     "Materials": [
+       {
+         "name": "color_red"
+       }
+     ],
+     "MeshTransforms": [
+       {
+         "Rotation": [
+           0.0,
+           0.0,
+           0.0
+         ],
+         "Scale": [
+           1.0,
+           1.0,
+           1.0
+         ],
+         "Translation": [
+           0.0,
+           0.0,
+           0.0
+         ]
+       }
+     ],
+     "ModelHandle": "cube2"
+   },
+   "Transform": {
+     "Rotation": {
+       "X": 0.0,
+       "Y": 0.0,
+       "Z": 0.0
+     },
+     "Scale": {
+       "X": 1.0,
+       "Y": 1.0,
+       "Z": 1.0
+     },
+     "Translation": {
+       "X": 0.0,
+       "Y": 0.0,
+       "Z": 0.0
+     }
+   },
+   "Behavior": {
+     "Tree": "enemy_turret_bullet"
+   },
+   "Controller": null,
+   "Physics": {
+     "Acceleration": [
+       0.0,
+       0.0,
+       0.0
+     ],
+     "ChangeTime": -42.0,
+     "Continuous": false,
+     "LightAffected": true,
+     "angulardrag": 0.05000000074505806,
+     "boundingbox": [
+       1.0,
+       1.0,
+       1.0
+     ],
+     "controltype": 2,
+     "customGravity": false,
+     "drag": 0.0,
+     "friction": 0.6000000238418579,
+     "mass": 1.0,
+     "pGravity": [
+       0.0,
+       0.0,
+       0.0
+     ],
+     "planeConstant": 1.0,
+     "planeNormal": [
+       0.0,
+       1.0,
+       0.0
+     ],
+     "radius": 200.0,
+     "restitution": 0.0,
+     "shape": 1,
+     "trigger": false,
+     "type": 0,
+     "velocity": [
+       0.0,
+       0.0,
+       0.0
+     ]
+   }
+ }
+}

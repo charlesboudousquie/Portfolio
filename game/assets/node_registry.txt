@@ -1,0 +1,61 @@
+L_HelloWorld 'Test node.'
+L_DebugMessage 'Test node.'         string message 'debug message'
+L_DebugCounter 'Test node.'         int count 10
+L_SetRandomTargetPointInRange 'Sets the target to be a random point within the given range.'         float range 10
+L_MoveToTargetAtSpeed 'Moves toward the current target at the given speed, until it is within the given distance.'         float approach_distance 10          float speed 10
+L_PlaySound 'Plays a sound. Can optionally pause the behavior until the sound finishes playing.'         string sound 'sound name'         bool wait_until_finished false
+L_WaitForInput 'Waits until the given button is pressed.'         string button_name 'button name'
+L_SpawnArchetype 'Spawns new entities. If match options are set, the new entities will match the given attributes to the creator's.'         string archetype_name 'archetype'          int num_spawned 1         bool match_velocity true         bool match_position true         bool match_rotation true         bool match_scale true
+L_SetVelocity 'Modifies velocity. Overwrite means that the old velocity is discarded. Relative means that the entity's facing is taken into account.'         bool overwrite true          bool relative true          float change_x 0         float change_y 0         float change_z 0
+L_SetVelocityRandom 'Modifies velocity randomly within the given ranges. Overwrite means that the old velocity is discarded. Relative means that the entity's facing is taken into account.'         bool overwrite true          bool relative true          float min_change_x 0         float max_change_x 0         float min_change_y 0         float max_change_y 0         float min_change_z 0         float max_change_z 0
+L_SetPosition 'Modifies position. Overwrite means that the old position is discarded. Relative means that the entity's facing is taken into account.'         bool overwrite true          bool relative true          float change_x 0          float change_y 0          float change_z 0
+L_SetPositionRandom 'Modifies position randomly within the given ranges. Overwrite means that the old position is discarded. Relative means that the entity's facing is taken into account.'         bool overwrite true          bool relative true          float min_change_x 0          float max_change_x 0          float min_change_y 0          float max_change_y 0          float min_change_z 0          float max_change_z 0
+L_SetRotation 'Modifies rotation. Overwrite means the previous rotation is discarded.'         bool overwrite true          float change_x 0          float change_y 0          float change_z 0
+L_SetRotationRandom 'Modifies rotation randomly in the given ranges. Overwrite means the previous rotation is discarded.'         bool overwrite true          float min_change_x 0          float max_change_x 0          float min_change_y 0          float max_change_y 0          float min_change_z 0          float max_change_z 0
+L_SetScale 'Modifies scale. Overwrite means the previous scale is discarded.'         bool overwrite true          float change_x 0          float change_y 0          float change_z 0
+L_SetScaleRandom 'Modifies scale randomly in the given ranges. Overwrite means the previous scale is discarded.'         bool overwrite true         float min_change_x 0          float max_change_x 0          float min_change_y 0          float max_change_y 0          float min_change_z 0          float max_change_z 0
+L_TargetPlayer 'Sets the current target to be the player. Fails if the player doesn't exist.'
+L_CheckTargetRange 'Succeeds if the current target is within range, otherwise fails.'         float range 100
+L_Wait 'Waits the given number of seconds.'         float seconds 1
+L_DamageTarget 'Deals damage to the current target.'         float damage 1
+L_Destroy 'Destroys the entity with this behavior.'
+L_ChangeLevel 'Changes the level.'         string level 'level name'
+L_SetGlobalFlag 'Sets a global flag that can be checked by other behaviors.'         string flag 'flag name'         bool status true
+L_CheckGlobalFlag 'Checks a global flag. If wait is true, will keep checking until the flag is set, otherwise the node fails.'         string flag 'flag name'         bool status true         bool wait true
+L_Stop 'Does nothing and never returns. Use to deactivate a behavior tree or active branch (parallel processing) without destroying the entity.'
+L_RotateTowardTarget 'Rotates to face the current target.'         float rotate_speed 1          bool rotate_x true          bool rotate_y true          bool rotate_z true
+C_Selector 'Runs each child in sequence, until one succeeds.'
+C_Sequence 'Runs each child in sequence, until one fails.'
+C_Parallel 'Runs all children simultaneously, until all return success or failure. Returns success only if no children failed.'
+C_Selector 'Runs each child in sequence, until one succeeds.'
+C_Sequence 'Runs each child in sequence, until one fails.'
+C_Parallel 'Runs all children simultaneously, until all return success or failure. Returns success only if no children failed.'
+D_Invert 'Returns the opposite of what the child returns.'
+D_RepeatForever 'Repeats the child node forever.'
+I_Timer 'Interrupts the behavior every X seconds.'         float time 10
+L_HelloWorld 'Test node.'
+L_DebugMessage 'Test node.'         string message 'debug message'
+L_DebugCounter 'Test node.'         int count 10
+L_SetRandomTargetPointInRange 'Sets the target to be a random point within the given range.'         float range 10
+L_MoveToTargetAtSpeed 'Moves toward the current target at the given speed, until it is within the given distance.'         float approach_distance 10          float speed 10
+L_PlaySound 'Plays a sound. Can optionally pause the behavior until the sound finishes playing.'         string sound 'sound name'         bool wait_until_finished false
+L_WaitForInput 'Waits until the given button is pressed.'         string button_name 'button name'
+L_SpawnArchetype 'Spawns new entities. If match options are set, the new entities will match the given attributes to the creator's.'         string archetype_name 'archetype'          int num_spawned 1         bool match_velocity true         bool match_position true         bool match_rotation true         bool match_scale true
+L_SetVelocity 'Modifies velocity. Overwrite means that the old velocity is discarded. Relative means that the entity's facing is taken into account.'         bool overwrite true          bool relative true          float change_x 0         float change_y 0         float change_z 0
+L_SetVelocityRandom 'Modifies velocity randomly within the given ranges. Overwrite means that the old velocity is discarded. Relative means that the entity's facing is taken into account.'         bool overwrite true          bool relative true          float min_change_x 0         float max_change_x 0         float min_change_y 0         float max_change_y 0         float min_change_z 0         float max_change_z 0
+L_SetPosition 'Modifies position. Overwrite means that the old position is discarded. Relative means that the entity's facing is taken into account.'         bool overwrite true          bool relative true          float change_x 0          float change_y 0          float change_z 0
+L_SetPositionRandom 'Modifies position randomly within the given ranges. Overwrite means that the old position is discarded. Relative means that the entity's facing is taken into account.'         bool overwrite true          bool relative true          float min_change_x 0          float max_change_x 0          float min_change_y 0          float max_change_y 0          float min_change_z 0          float max_change_z 0
+L_SetRotation 'Modifies rotation. Overwrite means the previous rotation is discarded.'         bool overwrite true          float change_x 0          float change_y 0          float change_z 0
+L_SetRotationRandom 'Modifies rotation randomly in the given ranges. Overwrite means the previous rotation is discarded.'         bool overwrite true          float min_change_x 0          float max_change_x 0          float min_change_y 0          float max_change_y 0          float min_change_z 0          float max_change_z 0
+L_SetScale 'Modifies scale. Overwrite means the previous scale is discarded.'         bool overwrite true          float change_x 0          float change_y 0          float change_z 0
+L_SetScaleRandom 'Modifies scale randomly in the given ranges. Overwrite means the previous scale is discarded.'         bool overwrite true         float min_change_x 0          float max_change_x 0          float min_change_y 0          float max_change_y 0          float min_change_z 0          float max_change_z 0
+L_TargetPlayer 'Sets the current target to be the player. Fails if the player doesn't exist.'
+L_CheckTargetRange 'Succeeds if the current target is within range, otherwise fails.'         float range 100
+L_Wait 'Waits the given number of seconds.'         float seconds 1
+L_DamageTarget 'Deals damage to the current target.'         float damage 1
+L_Destroy 'Destroys the entity with this behavior.'
+L_ChangeLevel 'Changes the level.'         string level 'level name'
+L_SetGlobalFlag 'Sets a global flag that can be checked by other behaviors.'         string flag 'flag name'         bool status true
+L_CheckGlobalFlag 'Checks a global flag. If wait is true, will keep checking until the flag is set, otherwise the node fails.'         string flag 'flag name'         bool status true         bool wait true
+L_Stop 'Does nothing and never returns. Use to deactivate a behavior tree or active branch (parallel processing) without destroying the entity.'
+L_RotateTowardTarget 'Rotates to face the current target.'         float rotate_speed 1          bool rotate_x true          bool rotate_y true          bool rotate_z true

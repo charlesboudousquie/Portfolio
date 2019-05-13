@@ -1,0 +1,5 @@
+C_Sequence 1
+L_TargetPlayer 2
+L_CheckTargetRange 2 5
+L_ChangeLevel 2 NorthCyan4
+L_Stop 2

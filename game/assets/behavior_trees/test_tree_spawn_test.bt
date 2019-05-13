@@ -1,0 +1,3 @@
+C_Sequence 1
+L_WaitForInput 2 Q_TEST
+L_SpawnArchetype 2 TestBox 1 false false false false

@@ -1,0 +1,70 @@
+{
+    "asset_path": "assets",
+    "far_plane": 1000.0,
+    "font_path": "assets/fonts",
+    "fullscreen": false,
+    "global_ambient": {
+        "xyz": [
+            0.30000000149011612,
+            0.80000000149011612,
+            1.10000000149011612
+        ]
+    },
+    "global_atten": {
+        "xyz": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+        ]
+    },
+    "global_fog": {
+        "xyz": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+        ]
+    },
+    "gravity": {
+        "xyz": [
+            0.0,
+            -10.0,
+            0.0
+        ]
+    },
+    "jump_height": 10.0,
+    "lantern_offset": {
+        "xyz": [
+            5.199999809265137,
+            3.25,
+            2.0
+        ]
+    },
+    "levels_path": "assets/levels",
+    "light_effect_anitgrav": -1.0,
+    "light_effect_slow": 0.5,
+    "light_effect_speed": 2.0,
+    "logging_level": 0,
+    "master_volume": 0.0,
+    "models_path": "assets/Models",
+    "noclip": false,
+    "player_gravity": {
+        "xyz": [
+            0.0,
+            -30.0,
+            0.0
+        ]
+    },
+    "player_speed": 25.0,
+    "prefabs_path": "assets/Prefabs",
+    "resolution_height": 720,
+    "resolution_width": 1280,
+    "scripts_path": "assets/scripts",
+    "shaders_path": "assets/shaders",
+    "skybox_path": "assets/skybox",
+    "sounds_path": "assets/sounds",
+    "startup_level": "demonstrationLevel",
+    "style_path": "assets/stylesheets",
+    "textures_path": "assets/textures",
+    "ui_path": "assets/ui",
+    "volume": 0.5
+}

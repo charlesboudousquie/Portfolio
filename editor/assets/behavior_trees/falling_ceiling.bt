@@ -1,0 +1,4 @@
+C_Sequence 1
+L_CheckGlobalFlag 2 falling_ceiling 1 1
+L_SetVelocity 2 1 0 0 -5 0
+L_Stop 2

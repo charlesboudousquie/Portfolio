@@ -1,0 +1,57 @@
+HUD, fps, memory, currentui, mouse, camera, version, instructions, controls,
+lighteffect
+{
+    top: 0;
+    left: 0;
+    font-family: Electrolize-Regular.ttf;
+    font-size: 24;
+}
+
+fps {
+    top: 0;
+}
+
+memory {
+    top: 25;
+}
+
+currentui {
+    top: 50;
+}
+
+/*
+mouse {
+    top: 75;
+}
+
+camera {
+    top: 100;
+}
+*/
+
+version {
+    top: 0;
+    left: 500;
+    font-size: 20;
+}
+
+instructions {
+    top: 100;
+    color: White;
+}
+
+controls {
+    top: 200;
+    color: White;
+}
+
+lighteffect {
+    top: 75;
+    color: White;
+}
+
+reticle {
+    top: 50%;
+    left: 50%;
+}
+

@@ -1,0 +1,19 @@
+drawn_sound_number, drawn_mouse_number {
+	font-family: Electrolize-Regular.ttf; /* The font, though we've only got one */
+	font-size: 24; /* Or whatever font size you want it to be */
+	color: White; /* Choose your favorite color */
+}
+
+drawn_sound_number {
+	top: 47%; /* Position of the top of the element */
+	left: 24%; /* Position of the left of the element */
+}
+
+drawn_mouse_number {
+	
+	top: 62%; /* Position of the top of the element */
+	left: 20%; /* Position of the left of the element */
+}
+
+  
+  

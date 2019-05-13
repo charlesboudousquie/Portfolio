@@ -1,0 +1,180 @@
+{
+  "Object#38654705706": {
+    "Children": [
+      {
+        "Object#38654705706 id4": {
+          "ModelComponent": {
+            "Materials": [
+              {
+                "name": "ghost_color_green"
+              }
+            ],
+            "MeshTransforms": [
+              {
+                "Rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "ModelHandle": "cube2"
+          },
+          "Physics": {
+            "Acceleration": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundingbox": [
+              0.9999628067016602,
+              0.9999760389328003,
+              0.9998429417610168
+            ],
+            "controltype": 1,
+            "customGravity": false,
+            "mass": 1.0,
+            "pGravity": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "planeConstant": 1.0,
+            "planeNormal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "radius": 0.49998801946640015,
+            "shape": 1,
+            "trigger": false,
+            "type": 0,
+            "velocity": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Transform": {
+            "Rotation": {
+              "X": -1.062035083770752,
+              "Y": -0.8053097128868103,
+              "Z": -0.35479113459587097
+            },
+            "Scale": {
+              "X": 0.9999628067016602,
+              "Y": 0.9999760389328003,
+              "Z": 0.9998429417610168
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 2.939770221710205,
+              "Z": -3.915804386138916
+            },
+            "moveX": true,
+            "moveY": true,
+            "moveZ": true,
+            "rotateX": true,
+            "rotateY": true,
+            "rotateZ": true
+          }
+        }
+      }
+    ],
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundingbox": [
+        1.0,
+        1.0000003576278687,
+        1.0000003576278687
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 0.5,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        -11.333331108093262,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.9846410155296326,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": -3.0080463886260986,
+        "Z": -0.7309170961380005
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  }
+}

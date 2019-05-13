@@ -1,0 +1,36 @@
+{
+    "name": "HUD",
+    "style": "hud.css",
+    "text": "",
+    "actions": [],
+    "children": [
+        {
+            "name": "instructions",
+            "style": "hud.css",
+            "text": "Make your way through the environment using the light combinations' effects.",
+            "actions": [],
+            "children": []
+        },
+        {
+            "name": "controls",
+            "style": "hud.css",
+            "text": "E to throw and retrieve. F to Cycle Flashlight colors.",
+            "actions": [],
+            "children": []
+        },
+        {
+            "name": "lighteffect",
+            "style": "hud.css",
+            "text": "Current Light Effect: %{LIGHT_EFFECT}.",
+            "actions": [],
+            "children": []
+        },
+        {
+            "name": "reticle",
+            "style": "hud.css",
+            "image": "reticle.png",
+            "actions": [ "ondraw;@check_reticle_type"],
+            "children": []
+        }
+    ]
+}

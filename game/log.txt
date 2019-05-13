@@ -1,0 +1,35 @@
+[ERR~19/04/15~21:57:55~engine/graphics/resourcepool.cpp:119] - Texture Default already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/04/15~21:57:59~engine/graphics/resourcepool.cpp:247] - Getting non-existing texture
+[ERR~19/04/15~21:57:59~engine/graphics/resourcepool.cpp:247] - Getting non-existing texture
+[ERR~19/04/15~21:57:59~engine/graphics/resourcepool.cpp:247] - Getting non-existing texture
+[DBG~19/04/15~21:58:00~engine/systems/uisystem.cpp:48] - Adding Predefined UI actions.
+[DBG~19/04/15~21:58:00~engine/systems/uisystem.cpp:178] - Searching for UI...
+[DBG~19/04/15~21:58:00~engine/systems/uisystem.cpp:189] - Found potential UI `fps_hud
+[DBG~19/04/15~21:58:00~engine/systems/uisystem.cpp:189] - Found potential UI `game_hud
+[DBG~19/04/15~21:58:00~engine/systems/uisystem.cpp:189] - Found potential UI `hud
+[DBG~19/04/15~21:58:00~engine/systems/uisystem.cpp:189] - Found potential UI `options_menu
+[DBG~19/04/15~21:58:00~engine/systems/uisystem.cpp:189] - Found potential UI `test_ui
+[DBG~19/04/15~21:58:00~engine/systems/uisystem.cpp:196] - Done.
+[WRN~19/04/15~21:58:05~engine/systems/uisystem.cpp:354] - Root UI element was null. Attempting to create now.
+[DBG~19/04/15~21:58:05~engine/systems/uisystem.cpp:363] - Loading UI Element.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:249] - Loading name of element.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:256] - Loading stylesheet.
+[WRN~19/04/15~21:58:05~engine/ui/uielement.cpp:338] - UIElement{Options Menu UI} with no data assigned will most likely not render.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:342] - Loading actions.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:398] - Loading all children.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:249] - Loading name of element.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:256] - Loading stylesheet.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:292] - Loading text.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:342] - Loading actions.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:398] - Loading all children.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:408] - Done.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:249] - Loading name of element.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:256] - Loading stylesheet.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:292] - Loading text.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:342] - Loading actions.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:398] - Loading all children.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:408] - Done.
+[DBG~19/04/15~21:58:05~engine/ui/uielement.cpp:408] - Done.
+[DBG~19/04/15~21:58:05~engine/systems/uisystem.cpp:368] - Done.
+[ERR~19/04/15~21:58:05~engine/utilities/util.cpp:240] - 1280
+[DBG~19/04/15~22:26:33~engine/gamestates/optionsmenugamestate.cpp:152] - Shutting Down Options Menu

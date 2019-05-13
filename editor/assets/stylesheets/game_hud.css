@@ -1,0 +1,47 @@
+Game_HUD, health, current_color, current_effect, instructions,
+instr_lantern, instr_pickup, instr_throw
+{
+    font-family: Electrolize-Regular.ttf;
+    font-size: 24;
+}
+
+health {
+    top: 1%;
+    left: 1%;
+    color: White;
+    background-color: rgba(127, 127, 127, 127);
+}
+
+current_color {
+    bottom: 1%;
+    left: 1%;
+    color: White;
+    background-color: rgba(127, 127, 127, 127);
+}
+
+current_effect {
+    top: 1%;
+    right: 1%;
+    color: White;
+    background-color: rgba(127, 127, 127, 127);
+}
+
+reticle {
+    top: 50%;
+    left: 50%;
+}
+
+instructions, instr_lantern, instr_pickup, instr_throw {
+    top: 5%;
+    right: 1%;
+    color: White;
+    background-color: rgba(127, 127, 127, 127);
+}
+
+instr_pickup {
+    top: 9%;
+}
+
+instr_throw {
+    top: 13%;
+}

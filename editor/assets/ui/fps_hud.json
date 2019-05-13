@@ -1,0 +1,16 @@
+{
+    "name": "FPS_HUD",
+    "style": "hud.css",
+    "text": "",
+    "scripts": [ ],
+    "actions": [ ],
+    "children": [
+        {
+            "name": "fps",
+            "style": "hud.css",
+            "text": "FPS: %{FPS}.",
+            "actions": [],
+            "children": []
+        }
+    ]
+}

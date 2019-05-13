@@ -1,0 +1,5 @@
+C_Sequence 1
+L_WaitForInput 2 E_TEST
+L_PlaySound 2
+L_SetRandomTargetPointInRange 2 100
+L_MoveToTargetAtSpeed 2 1 30

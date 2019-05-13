@@ -1,0 +1,9 @@
+C_Sequence 1
+C_Selector 2
+D_Invert 3
+L_DebugMessage 4 "Message 1"
+L_DebugMessage 3 "Message 2"
+L_DebugMessage 2 "Message 3"
+D_Invert 2
+L_DebugMessage 3 "Message 4"
+L_DebugMessage 2 "ERROR"

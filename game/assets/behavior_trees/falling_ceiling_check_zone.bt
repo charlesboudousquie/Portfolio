@@ -1,0 +1,5 @@
+C_Sequence 1
+L_TargetPlayer 2
+L_CheckTargetRange 2 5
+L_SetGlobalFlag 2 falling_ceiling 1
+L_Stop 2

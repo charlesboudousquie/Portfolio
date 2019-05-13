@@ -1,0 +1,16 @@
+{
+    "name": "TEST",
+    "style": "test.css",
+    "text": "Mem:%{MEMORY};   Mouse:(%{MOUSEX},%{MOUSEY})",
+    "actions": [
+    ],
+    "children": [
+        {
+            "name": "child1",
+            "text": "child test",
+            "style": "test.css",
+            "actions": [ ],
+            "children": []
+        }
+    ]
+}

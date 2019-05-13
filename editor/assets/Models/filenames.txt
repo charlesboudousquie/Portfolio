@@ -1,0 +1,9 @@
+4Sphere.obj
+axe.obj
+cube.obj
+cube2.obj
+cup.obj
+filenames.txt
+rhino.obj
+sphere.obj
+triangle.obj

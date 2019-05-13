@@ -1,0 +1,13 @@
+C_Sequence 1
+L_TargetPlayer 2
+C_Parallel 2
+D_RepeatForever 3
+C_Sequence 4
+L_CheckTargetRange 5 100
+L_RotateTowardTarget 5 1 1 1 0
+D_RepeatForever 3
+C_Sequence 4
+L_Wait 5 1
+L_CheckTargetRange 5 100
+L_PlaySound 4 why 0
+L_SpawnArchetype 5 EnemyTurretBullet 1 1 1 1 1

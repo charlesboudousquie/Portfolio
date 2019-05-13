@@ -1,0 +1,11 @@
+C_Sequence 1
+L_SetVelocity 2 0 1 0 0 10
+L_TargetPlayer 2
+D_RepeatForever 2
+C_Parallel 3
+C_Sequence 4
+L_Wait 5 10
+L_Destroy 5
+C_Sequence 4
+L_CheckTargetRange 5 10
+L_DamageTarget 5 20
