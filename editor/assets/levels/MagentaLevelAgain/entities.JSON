@@ -33,6 +33,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -40,6 +44,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -53,6 +59,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -126,6 +133,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -133,6 +144,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -146,6 +159,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -219,6 +233,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         65.97557067871094,
@@ -226,6 +244,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -239,6 +259,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -312,6 +333,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -319,6 +344,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -332,6 +359,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -340,6 +368,42 @@
         0.0,
         0.0
       ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 1.0471975803375244,
+      "PADDING": 0.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
     },
     "Transform": {
       "Rotation": {
@@ -354,7 +418,7 @@
       },
       "Translation": {
         "X": -37.986,
-        "Y": 8.557,
+        "Y": 13.767,
         "Z": 14.413
       },
       "moveX": true,
@@ -369,7 +433,6 @@
     "Children": [
       {
         "BlueLightCylinder id01": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -403,6 +466,10 @@
               0.0,
               0.0
             ],
+            "ChangeTime": 2.0,
+            "Continuous": false,
+            "LightAffected": true,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
               9.999716758728027,
               50.00008010864258,
@@ -410,10 +477,12 @@
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              0.0,
+              -10.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -423,6 +492,7 @@
               0.0
             ],
             "radius": 1.0,
+            "restitution": 0.0,
             "shape": 2,
             "trigger": true,
             "type": 1,
@@ -497,6 +567,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -504,6 +578,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -517,6 +593,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -545,8 +622,8 @@
       },
       "Translation": {
         "X": -23.505,
-        "Y": 8.557,
-        "Z": -23.487
+        "Y": 17.304,
+        "Z": -27.295
       },
       "moveX": true,
       "moveY": true,
@@ -560,7 +637,6 @@
     "Children": [
       {
         "BlueLightCylinder id01": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -594,17 +670,23 @@
               0.0,
               0.0
             ],
+            "ChangeTime": 2.0,
+            "Continuous": false,
+            "LightAffected": true,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
-              9.995245933532715,
+              9.992903709411621,
               67.98277282714844,
-              9.995246887207031
+              9.992904663085938
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              0.0,
+              -10.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -614,6 +696,7 @@
               0.0
             ],
             "radius": 1.0,
+            "restitution": 0.0,
             "shape": 2,
             "trigger": true,
             "type": 1,
@@ -636,14 +719,14 @@
               "Z": 0.0
             },
             "Scale": {
-              "X": 9.995,
+              "X": 9.992,
               "Y": 67.983,
-              "Z": 9.995
+              "Z": 9.992
             },
             "Translation": {
-              "X": -27.289,
-              "Y": -7.036,
-              "Z": 59.342
+              "X": -22.83,
+              "Y": 1.36,
+              "Z": 58.747
             },
             "moveX": true,
             "moveY": true,
@@ -688,6 +771,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -695,6 +782,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -708,6 +797,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -736,8 +826,8 @@
       },
       "Translation": {
         "X": -14.352,
-        "Y": 8.557,
-        "Z": -26.242
+        "Y": 15.401,
+        "Z": -27.609
       },
       "moveX": true,
       "moveY": true,
@@ -751,7 +841,6 @@
     "Children": [
       {
         "RedLightCylinder id2 id4 id5 id6 id7 id8 id11": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -785,17 +874,23 @@
               0.0,
               0.0
             ],
+            "ChangeTime": 2.0,
+            "Continuous": false,
+            "LightAffected": true,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
-              9.997919082641602,
-              74.02085876464844,
-              9.997919082641602
+              9.992964744567871,
+              70.62162017822266,
+              9.992964744567871
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              0.0,
+              -10.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -805,6 +900,7 @@
               0.0
             ],
             "radius": 1.0,
+            "restitution": 0.0,
             "shape": 2,
             "trigger": true,
             "type": 1,
@@ -827,14 +923,14 @@
               "Z": 0.0
             },
             "Scale": {
-              "X": 9.998,
-              "Y": 74.021,
-              "Z": 9.998
+              "X": 9.993,
+              "Y": 70.622,
+              "Z": 9.993
             },
             "Translation": {
-              "X": -8.751,
-              "Y": -17.113,
-              "Z": 82.781
+              "X": -3.07,
+              "Y": 2.829,
+              "Z": 81.318
             },
             "moveX": true,
             "moveY": true,
@@ -879,6 +975,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -886,6 +986,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -899,6 +1001,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -927,7 +1030,7 @@
       },
       "Translation": {
         "X": -6.731,
-        "Y": 8.557,
+        "Y": 11.125,
         "Z": -30.657
       },
       "moveX": true,
@@ -972,6 +1075,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -979,6 +1086,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -992,6 +1101,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1019,9 +1129,9 @@
         "Z": 10.0
       },
       "Translation": {
-        "X": -5.566,
+        "X": -12.707,
         "Y": 8.557,
-        "Z": -89.632
+        "Z": -72.842
       },
       "moveX": true,
       "moveY": true,
@@ -1065,6 +1175,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -1072,6 +1186,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1085,6 +1201,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1112,9 +1229,109 @@
         "Z": 10.0
       },
       "Translation": {
-        "X": 42.547,
+        "X": 39.529,
         "Y": 8.557,
-        "Z": -70.622
+        "Z": -83.299
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "BlueLightCylinder id01 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_blue"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        9.999999046325684,
+        50.00008010864258,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 50.0,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": 43.112,
+        "Y": 8.557,
+        "Z": -71.769
       },
       "moveX": true,
       "moveY": true,
@@ -1158,6 +1375,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -1165,6 +1386,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1178,6 +1401,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1251,6 +1475,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -1258,6 +1486,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1271,6 +1501,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1279,6 +1510,42 @@
         0.0,
         0.0
       ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 2,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 1.0471975803375244,
+      "PADDING": 0.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
     },
     "Transform": {
       "Rotation": {
@@ -1293,7 +1560,7 @@
       },
       "Translation": {
         "X": -46.192,
-        "Y": 8.557,
+        "Y": 13.909,
         "Z": 40.725
       },
       "moveX": true,
@@ -1338,13 +1605,19 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
-        50.00008010864258,
-        10.07979679107666
+        50.00006866455078,
+        10.079792976379395
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1358,6 +1631,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1375,7 +1649,7 @@
     },
     "Transform": {
       "Rotation": {
-        "X": 0.0,
+        "X": 0.903,
         "Y": -0.0,
         "Z": 0.0
       },
@@ -1431,6 +1705,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -1438,6 +1716,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1451,6 +1731,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1478,9 +1759,9 @@
         "Z": 10.016
       },
       "Translation": {
-        "X": 16.818,
+        "X": 30.746,
         "Y": 8.557,
-        "Z": -77.825
+        "Z": -105.332
       },
       "moveX": true,
       "moveY": true,
@@ -1524,13 +1805,19 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
-        50.00008010864258,
+        55.32767105102539,
         10.0
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1544,6 +1831,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1567,13 +1855,13 @@
       },
       "Scale": {
         "X": 10.0,
-        "Y": 50.0,
+        "Y": 55.328,
         "Z": 10.0
       },
       "Translation": {
-        "X": -15.748,
-        "Y": 8.557,
-        "Z": 53.687
+        "X": -9.931,
+        "Y": 19.095,
+        "Z": 50.26
       },
       "moveX": true,
       "moveY": true,
@@ -1617,6 +1905,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -1624,6 +1916,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1637,6 +1931,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1667,6 +1962,106 @@
         "X": 48.749,
         "Y": 8.557,
         "Z": -52.527
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Flashlight": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "coneMesh"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        15.0,
+        50.0,
+        15.0
+      ],
+      "controltype": 2,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 15.0,
+      "restitution": 0.0,
+      "shape": 4,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 1.502,
+        "Y": 0.59,
+        "Z": -3.141
+      },
+      "Scale": {
+        "X": 15.0,
+        "Y": 50.0,
+        "Z": 15.0
+      },
+      "Translation": {
+        "X": -28.067,
+        "Y": 2.732,
+        "Z": -92.005
       },
       "moveX": true,
       "moveY": true,
@@ -1710,6 +2105,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -1717,6 +2116,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1730,6 +2131,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1758,7 +2160,7 @@
       },
       "Translation": {
         "X": 33.659,
-        "Y": 5.98,
+        "Y": 13.26,
         "Z": -15.251
       },
       "moveX": true,
@@ -1803,13 +2205,19 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        10.0,
-        50.00008010864258,
-        10.0
+        9.998443603515625,
+        12.551093101501465,
+        10.000000953674316
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1823,6 +2231,137 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 1.0471975803375244,
+      "PADDING": 1.401298464324817e-45,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 2.834,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 9.999,
+        "Y": 12.551,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": -54.819,
+        "Y": 7.786,
+        "Z": 8.957
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "GreenLightCylindera id1": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        10.0,
+        144.03244018554688,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1876,224 +2415,13 @@
       },
       "Scale": {
         "X": 10.0,
-        "Y": 50.0,
+        "Y": 144.032,
         "Z": 10.0
       },
       "Translation": {
         "X": 28.568,
-        "Y": 8.557,
-        "Z": 21.231
-      },
-      "moveX": true,
-      "moveY": true,
-      "moveZ": true,
-      "rotateX": true,
-      "rotateY": true,
-      "rotateZ": true
-    }
-  },
-  "GreenLightCylindera id1": {
-    "ModelComponent": {
-      "Materials": [
-        {
-          "name": "ghost_color_green"
-        }
-      ],
-      "MeshTransforms": [
-        {
-          "Rotation": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "Translation": [
-            0.0,
-            0.0,
-            0.0
-          ]
-        }
-      ],
-      "ModelHandle": "Cylinder3"
-    },
-    "Physics": {
-      "Acceleration": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "boundingbox": [
-        10.0,
-        50.00008010864258,
-        10.0
-      ],
-      "controltype": 0,
-      "customGravity": false,
-      "mass": 1.0,
-      "pGravity": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "planeConstant": 1.0,
-      "planeNormal": [
-        0.0,
-        1.0,
-        0.0
-      ],
-      "radius": 1.0,
-      "shape": 2,
-      "trigger": true,
-      "type": 1,
-      "velocity": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    "PuzzleLightComponent": {
-      "LightColor": 1,
-      "UseBlue": true,
-      "UseGreen": true,
-      "UseRed": true
-    },
-    "SpotLightComponent": {
-      "Ambient": {
-        "W": 0.0,
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
-      },
-      "Diffuse": {
-        "W": 1.0,
-        "X": 1.0,
-        "Y": 1.0,
-        "Z": 1.0
-      },
-      "Direction": {
-        "W": 0.0,
-        "X": 0.0,
-        "Y": 1.0,
-        "Z": 0.0
-      },
-      "FallOff": 0.0,
-      "InnerAngle": 0.2617993950843811,
-      "OuterAngle": 1.0471975803375244,
-      "PADDING": 0.0,
-      "Point": {
-        "W": 0.0,
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
-      }
-    },
-    "Transform": {
-      "Rotation": {
-        "X": 0.0,
-        "Y": -0.0,
-        "Z": 0.0
-      },
-      "Scale": {
-        "X": 10.0,
-        "Y": 50.0,
-        "Z": 10.0
-      },
-      "Translation": {
-        "X": 2.899,
-        "Y": 8.557,
-        "Z": 50.416
-      },
-      "moveX": true,
-      "moveY": true,
-      "moveZ": true,
-      "rotateX": true,
-      "rotateY": true,
-      "rotateZ": true
-    }
-  },
-  "Lantern Body": {
-    "LightEffect": null,
-    "ModelComponent": {
-      "Materials": [
-        {
-          "name": "none"
-        }
-      ],
-      "MeshTransforms": [
-        {
-          "Rotation": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "Translation": [
-            0.0,
-            0.0,
-            0.0
-          ]
-        }
-      ],
-      "ModelHandle": "cube2"
-    },
-    "Physics": {
-      "Acceleration": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "boundingbox": [
-        2.0,
-        2.0,
-        2.0
-      ],
-      "controltype": 1,
-      "customGravity": false,
-      "mass": 1.0,
-      "pGravity": [
-        0.0,
-        -10.0,
-        0.0
-      ],
-      "planeConstant": 1.0,
-      "planeNormal": [
-        0.0,
-        1.0,
-        0.0
-      ],
-      "radius": 1.0,
-      "shape": 1,
-      "trigger": false,
-      "type": 0,
-      "velocity": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    "Transform": {
-      "Rotation": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
-      },
-      "Scale": {
-        "X": 2.0,
-        "Y": 2.0,
-        "Z": 2.0
-      },
-      "Translation": {
-        "X": -41.317,
-        "Y": -0.469,
-        "Z": -70.82
+        "Y": 61.299,
+        "Z": 9.625
       },
       "moveX": true,
       "moveY": true,
@@ -2129,7 +2457,7 @@
           ]
         }
       ],
-      "ModelHandle": "MagentaTutorialMesh01"
+      "ModelHandle": "MagentaInternalExport"
     },
     "Physics": {
       "Acceleration": [
@@ -2137,6 +2465,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0,
         1.0,
@@ -2144,6 +2476,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2157,6 +2491,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 7,
       "trigger": false,
       "type": 0,
@@ -2179,7 +2514,7 @@
       },
       "Translation": {
         "X": 0.0,
-        "Y": 0.0,
+        "Y": 38.004,
         "Z": -10.0
       },
       "moveX": true,
@@ -3199,9 +3534,6 @@
     }
   },
   "Object#50": {
-    "Enemy": {
-      "type": 1
-    },
     "ModelComponent": {
       "Materials": [
         {
@@ -3241,9 +3573,9 @@
         "Z": 1.0
       },
       "Translation": {
-        "X": -24.695,
-        "Y": 10.402,
-        "Z": -22.763
+        "X": -25.517,
+        "Y": 16.521,
+        "Z": -25.035
       },
       "moveX": true,
       "moveY": true,
@@ -3254,9 +3586,6 @@
     }
   },
   "Object#50 id0": {
-    "Enemy": {
-      "type": 1
-    },
     "ModelComponent": {
       "Materials": [
         {
@@ -3296,9 +3625,9 @@
         "Z": 1.0
       },
       "Translation": {
-        "X": -8.408,
-        "Y": 10.402,
-        "Z": -42.851
+        "X": -24.146,
+        "Y": 16.487,
+        "Z": -46.215
       },
       "moveX": true,
       "moveY": true,
@@ -3309,9 +3638,6 @@
     }
   },
   "Object#50 id2": {
-    "Enemy": {
-      "type": 1
-    },
     "ModelComponent": {
       "Materials": [
         {
@@ -3364,9 +3690,6 @@
     }
   },
   "Object#50 id2 id3": {
-    "Enemy": {
-      "type": 1
-    },
     "ModelComponent": {
       "Materials": [
         {
@@ -3422,7 +3745,7 @@
     "EndZone": {
       "IsActive": true,
       "IsEndOfGame": false,
-      "LevelToLoad": "CyanLevelTutorial"
+      "LevelToLoad": "NorthCyan3"
     },
     "ModelComponent": {
       "Materials": [
@@ -3457,6 +3780,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         11.606998443603516,
         43.143001556396484,
@@ -3464,6 +3791,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -3477,6 +3806,7 @@
         0.0
       ],
       "radius": 43.143001556396484,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": true,
       "type": 1,
@@ -3499,8 +3829,8 @@
       },
       "Translation": {
         "X": 31.653,
-        "Y": 30.762,
-        "Z": 10.177
+        "Y": 59.236,
+        "Z": -24.483
       },
       "moveX": true,
       "moveY": true,
@@ -3566,7 +3896,6 @@
     "Children": [
       {
         "RedLightSphere id12": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -3600,17 +3929,23 @@
               0.0,
               0.0
             ],
+            "ChangeTime": 2.0,
+            "Continuous": false,
+            "LightAffected": true,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
-              5.999242782592773,
-              5.99926233291626,
+              5.999244689941406,
+              5.999241828918457,
               5.9994049072265625
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              0.0,
+              -10.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -3620,6 +3955,7 @@
               0.0
             ],
             "radius": 3.0,
+            "restitution": 0.0,
             "shape": 1,
             "trigger": true,
             "type": 1,
@@ -3661,7 +3997,6 @@
         }
       }
     ],
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -3695,6 +4030,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         2.979998826980591,
         2.9800000190734863,
@@ -3702,10 +4041,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        0.0,
+        -10.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3715,6 +4056,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3737,10 +4079,10 @@
       },
       "Translation": {
         "X": 5.468,
-        "Y": 10.441,
-        "Z": -17.404
+        "Y": 17.141,
+        "Z": -16.336
       },
-      "moveX": false,
+      "moveX": true,
       "moveY": false,
       "moveZ": true,
       "rotateX": false,
@@ -3752,7 +4094,6 @@
     "Children": [
       {
         "RedLightSphere id12 id8": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -3786,17 +4127,23 @@
               0.0,
               0.0
             ],
+            "ChangeTime": 2.0,
+            "Continuous": false,
+            "LightAffected": true,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
+              6.000404357910156,
               6.0,
-              6.0,
-              6.0
+              6.000404357910156
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              0.0,
+              -10.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -3806,6 +4153,7 @@
               0.0
             ],
             "radius": 3.0,
+            "restitution": 0.0,
             "shape": 1,
             "trigger": true,
             "type": 1,
@@ -3824,7 +4172,7 @@
           "Transform": {
             "Rotation": {
               "X": 0.0,
-              "Y": -0.0,
+              "Y": 0.0,
               "Z": 0.0
             },
             "Scale": {
@@ -3834,7 +4182,7 @@
             },
             "Translation": {
               "X": -6.09,
-              "Y": 0.953,
+              "Y": 0.952,
               "Z": -0.665
             },
             "moveX": true,
@@ -3847,7 +4195,6 @@
         }
       }
     ],
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -3881,6 +4228,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         2.9799981117248535,
         2.9799997806549072,
@@ -3888,10 +4239,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        0.0,
+        -10.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3901,6 +4254,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3923,11 +4277,11 @@
       },
       "Translation": {
         "X": 10.676,
-        "Y": 10.441,
+        "Y": 17.027,
         "Z": -27.554
       },
       "moveX": true,
-      "moveY": true,
+      "moveY": false,
       "moveZ": true,
       "rotateX": false,
       "rotateY": false,
@@ -3935,24 +4289,29 @@
     }
   },
   "Player": {
-    "LightEffect": null,
     "Physics": {
       "Acceleration": [
         0.0,
         0.0,
         0.0
       ],
+      "ChangeTime": 2.0,
+      "Continuous": true,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0,
         1.0,
         1.0
       ],
-      "controltype": 1,
+      "controltype": 3,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        0.0,
+        -30.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3962,6 +4321,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 3,
       "trigger": false,
       "type": 0,
@@ -3973,10 +4333,15 @@
     },
     "Player": {
       "blue": true,
+      "grabdistance": 5.0,
       "green": true,
-      "jumpHeight": 25.0,
+      "holdingThreshold": 1.0,
+      "jumpHeight": 17.0,
       "red": true,
-      "speed": 40.0
+      "returnvelocity": 200.0,
+      "speed": 35.0,
+      "strength": 50.0,
+      "timetospeed": 0.10000000149011612
     },
     "Sound": {
       "paths": [
@@ -4001,7 +4366,7 @@
       },
       "Translation": {
         "X": -43.376,
-        "Y": 0.929,
+        "Y": 0.918,
         "Z": -71.055
       },
       "moveX": true,
@@ -4046,6 +4411,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         9.999999046325684,
         50.00008010864258,
@@ -4053,6 +4422,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4066,6 +4437,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4139,6 +4511,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -4146,6 +4522,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4159,6 +4537,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4232,6 +4611,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -4239,6 +4622,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4252,6 +4637,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4280,7 +4666,7 @@
       },
       "Translation": {
         "X": 32.907,
-        "Y": 5.98,
+        "Y": 14.577,
         "Z": -14.703
       },
       "moveX": true,
@@ -4325,13 +4711,19 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
-        50.00008010864258,
-        10.0
+        50.000064849853516,
+        10.000001907348633
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4345,6 +4737,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4362,8 +4755,8 @@
     },
     "Transform": {
       "Rotation": {
-        "X": 0.0,
-        "Y": -0.0,
+        "X": -0.554,
+        "Y": 0.0,
         "Z": 0.0
       },
       "Scale": {
@@ -4373,8 +4766,8 @@
       },
       "Translation": {
         "X": 39.381,
-        "Y": 8.557,
-        "Z": -87.134
+        "Y": 6.567,
+        "Z": -89.165
       },
       "moveX": true,
       "moveY": true,
@@ -4418,6 +4811,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -4425,6 +4822,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4438,6 +4837,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4503,7 +4903,7 @@
           ]
         }
       ],
-      "ModelHandle": "Cylinder3"
+      "ModelHandle": "cube2"
     },
     "Physics": {
       "Acceleration": [
@@ -4511,13 +4911,19 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        10.0,
-        50.00008010864258,
-        10.0
+        34.932220458984375,
+        30.498628616333008,
+        47.292476654052734
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4531,6 +4937,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4553,14 +4960,14 @@
         "Z": 0.0
       },
       "Scale": {
-        "X": 10.0,
-        "Y": 50.0,
-        "Z": 10.0
+        "X": 34.932,
+        "Y": 30.499,
+        "Z": 47.293
       },
       "Translation": {
-        "X": 0.566,
-        "Y": 8.557,
-        "Z": 50.288
+        "X": -7.917,
+        "Y": 28.704,
+        "Z": 63.444
       },
       "moveX": true,
       "moveY": true,
@@ -4604,6 +5011,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -4611,6 +5022,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4624,6 +5037,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4651,9 +5065,9 @@
         "Z": 10.0
       },
       "Translation": {
-        "X": -0.382,
-        "Y": 8.557,
-        "Z": 65.978
+        "X": 5.361,
+        "Y": 20.749,
+        "Z": 60.46
       },
       "moveX": true,
       "moveY": true,
@@ -4697,6 +5111,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -4704,6 +5122,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4717,6 +5137,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4744,9 +5165,9 @@
         "Z": 10.0
       },
       "Translation": {
-        "X": 14.3,
-        "Y": 8.557,
-        "Z": 68.158
+        "X": -20.772,
+        "Y": 23.218,
+        "Z": 65.691
       },
       "moveX": true,
       "moveY": true,
@@ -4790,6 +5211,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -4797,6 +5222,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4810,6 +5237,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4837,9 +5265,9 @@
         "Z": 10.0
       },
       "Translation": {
-        "X": 16.25,
-        "Y": 8.557,
-        "Z": 66.426
+        "X": -21.281,
+        "Y": 23.014,
+        "Z": 65.634
       },
       "moveX": true,
       "moveY": true,
@@ -4883,6 +5311,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -4890,6 +5322,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4903,6 +5337,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -4930,9 +5365,9 @@
         "Z": 10.0
       },
       "Translation": {
-        "X": 2.003,
-        "Y": 9.215,
-        "Z": 64.672
+        "X": 5.495,
+        "Y": 20.6,
+        "Z": 60.365
       },
       "moveX": true,
       "moveY": true,
@@ -4946,7 +5381,6 @@
     "Children": [
       {
         "BlueLightCylinder": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -4980,6 +5414,10 @@
               0.0,
               0.0
             ],
+            "ChangeTime": 2.0,
+            "Continuous": false,
+            "LightAffected": true,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
               10.0,
               50.00008010864258,
@@ -4987,10 +5425,12 @@
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              0.0,
+              -10.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -5000,6 +5440,7 @@
               0.0
             ],
             "radius": 1.0,
+            "restitution": 0.0,
             "shape": 2,
             "trigger": true,
             "type": 1,
@@ -5068,6 +5509,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -5075,6 +5520,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5088,6 +5535,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -5116,7 +5564,7 @@
       },
       "Translation": {
         "X": -38.349,
-        "Y": 8.557,
+        "Y": 14.171,
         "Z": 13.665
       },
       "moveX": true,
@@ -5131,7 +5579,6 @@
     "Children": [
       {
         "BlueLightCylinder": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -5165,6 +5612,10 @@
               0.0,
               0.0
             ],
+            "ChangeTime": 2.0,
+            "Continuous": false,
+            "LightAffected": true,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
               9.99751091003418,
               50.00008010864258,
@@ -5172,10 +5623,12 @@
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              0.0,
+              -10.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -5185,6 +5638,7 @@
               0.0
             ],
             "radius": 1.0,
+            "restitution": 0.0,
             "shape": 2,
             "trigger": true,
             "type": 1,
@@ -5253,6 +5707,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -5260,6 +5718,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5273,6 +5733,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -5300,9 +5761,9 @@
         "Z": 10.0
       },
       "Translation": {
-        "X": -39.207,
-        "Y": 8.557,
-        "Z": 32.659
+        "X": -37.298,
+        "Y": 18.04,
+        "Z": 32.886
       },
       "moveX": true,
       "moveY": true,
@@ -5313,7 +5774,6 @@
     }
   },
   "RedLightCylinder id2 id4 id5 id6 id7 id8 id10 id12": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -5347,6 +5807,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -5354,10 +5818,12 @@
       ],
       "controltype": 2,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        0.0,
+        -10.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -5367,6 +5833,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -5395,7 +5862,7 @@
       },
       "Translation": {
         "X": -45.022,
-        "Y": 8.557,
+        "Y": 12.068,
         "Z": 41.558
       },
       "moveX": true,
@@ -5440,13 +5907,19 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
-        50.00008010864258,
-        10.0
+        14.41640567779541,
+        10.000015258789063
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5460,6 +5933,107 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "Transform": {
+      "Rotation": {
+        "X": -0.357,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 10.0,
+        "Y": 14.416,
+        "Z": 10.0
+      },
+      "Translation": {
+        "X": -54.743,
+        "Y": 7.023,
+        "Z": 9.515
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "RedLightCylinder id2 id4 id5 id6 id7 id8 id11 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        10.0,
+        149.5237274169922,
+        10.0
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -5483,13 +6057,13 @@
       },
       "Scale": {
         "X": 10.0,
-        "Y": 50.0,
+        "Y": 149.523,
         "Z": 10.0
       },
       "Translation": {
-        "X": 27.081,
-        "Y": 8.557,
-        "Z": 21.193
+        "X": 29.757,
+        "Y": 61.201,
+        "Z": 9.61
       },
       "moveX": true,
       "moveY": true,
@@ -5533,6 +6107,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -5540,6 +6118,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5553,6 +6133,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -5626,6 +6207,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -5633,6 +6218,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5646,6 +6233,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -5719,6 +6307,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         10.0,
         50.00008010864258,
@@ -5726,6 +6318,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5739,6 +6333,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -5767,102 +6362,8 @@
       },
       "Translation": {
         "X": -10.087,
-        "Y": 8.557,
+        "Y": 22.908,
         "Z": -43.749
-      },
-      "moveX": true,
-      "moveY": true,
-      "moveZ": true,
-      "rotateX": true,
-      "rotateY": true,
-      "rotateZ": true
-    }
-  },
-  "RedLightSphere id12": {
-    "LightEffect": null,
-    "ModelComponent": {
-      "Materials": [
-        {
-          "name": "ghost_color_red"
-        }
-      ],
-      "MeshTransforms": [
-        {
-          "Rotation": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "Translation": [
-            0.0,
-            0.0,
-            0.0
-          ]
-        }
-      ],
-      "ModelHandle": "sphere"
-    },
-    "Physics": {
-      "Acceleration": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "boundingbox": [
-        3.0,
-        3.0,
-        3.0
-      ],
-      "controltype": 2,
-      "customGravity": false,
-      "mass": 1.0,
-      "pGravity": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "planeConstant": 1.0,
-      "planeNormal": [
-        0.0,
-        1.0,
-        0.0
-      ],
-      "radius": 3.0,
-      "shape": 1,
-      "trigger": true,
-      "type": 1,
-      "velocity": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    "PuzzleLightComponent": {
-      "LightColor": 0,
-      "UseBlue": true,
-      "UseGreen": true,
-      "UseRed": true
-    },
-    "Transform": {
-      "Rotation": {
-        "X": 0.0,
-        "Y": -0.0,
-        "Z": 0.0
-      },
-      "Scale": {
-        "X": 3.0,
-        "Y": 3.0,
-        "Z": 3.0
-      },
-      "Translation": {
-        "X": -0.325,
-        "Y": 22.143,
-        "Z": -53.528
       },
       "moveX": true,
       "moveY": true,
@@ -5906,13 +6407,19 @@
         0.0,
         0.0
       ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        337.50921630859375,
-        50.00004577636719,
-        455.804931640625
+        120.70176696777344,
+        16.35852813720703,
+        14.984343528747559
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5926,6 +6433,7 @@
         0.0
       ],
       "radius": 200.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": true,
       "type": 1,
@@ -5942,14 +6450,108 @@
         "Z": 0.001
       },
       "Scale": {
-        "X": 337.51,
-        "Y": 50.0,
-        "Z": 455.802
+        "X": 120.676,
+        "Y": 16.358,
+        "Z": 14.984
       },
       "Translation": {
-        "X": -1.645,
-        "Y": -37.09,
-        "Z": 1.85
+        "X": -46.574,
+        "Y": -0.254,
+        "Z": 37.237
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "SpikeCeiling id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        42.481449127197266,
+        13.502189636230469,
+        41.21849060058594
+      ],
+      "controltype": 2,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 42.481449127197266,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        -15.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 42.481,
+        "Y": 13.502,
+        "Z": 41.218
+      },
+      "Translation": {
+        "X": -4.087,
+        "Y": 53.255,
+        "Z": 63.15
       },
       "moveX": true,
       "moveY": true,
@@ -5960,10 +6562,6 @@
     }
   },
   "Turret Bullet": {
-    "Enemy": {
-      "type": 3
-    },
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -5997,6 +6595,10 @@
         0.0,
         0.0
       ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0,
         1.0,
@@ -6004,6 +6606,8 @@
       ],
       "controltype": 2,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6017,6 +6621,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": true,
       "type": 0,
@@ -6038,9 +6643,103 @@
         "Z": 1.0
       },
       "Translation": {
-        "X": 36.763,
-        "Y": 0.449,
-        "Z": -36.253
+        "X": 35.805,
+        "Y": 0.454,
+        "Z": -36.67
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "trigger SpikeCeiling": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "none"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": -42.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        8.122220993041992,
+        13.502189636230469,
+        30.68917465209961
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 42.481449127197266,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": true,
+      "type": 0,
+      "velocity": [
+        0.0,
+        -15.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 8.122,
+        "Y": 13.502,
+        "Z": 30.689
+      },
+      "Translation": {
+        "X": -22.037,
+        "Y": 18.264,
+        "Z": 56.25
       },
       "moveX": true,
       "moveY": true,

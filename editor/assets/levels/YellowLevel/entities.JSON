@@ -1,10 +1,9 @@
 {
   "Flashlight": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
-          "name": "ghost_color_blue"
+          "name": "ghost_color_red"
         }
       ],
       "MeshTransforms": [
@@ -26,7 +25,7 @@
           ]
         }
       ],
-      "ModelHandle": "cube2"
+      "ModelHandle": "coneMesh"
     },
     "Physics": {
       "Acceleration": [
@@ -34,17 +33,21 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        14.999999046325684,
-        49.999996185302734,
-        14.999998092651367
+        15.0,
+        50.0,
+        15.0
       ],
       "controltype": 2,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -53,7 +56,8 @@
         1.0,
         0.0
       ],
-      "radius": 14.999999046325684,
+      "radius": 15.0,
+      "restitution": 0.0,
       "shape": 4,
       "trigger": true,
       "type": 1,
@@ -64,16 +68,16 @@
       ]
     },
     "PuzzleLightComponent": {
-      "LightColor": 2,
+      "LightColor": 0,
       "UseBlue": false,
       "UseGreen": false,
       "UseRed": false
     },
     "Transform": {
       "Rotation": {
-        "X": 2.154,
-        "Y": 0.164,
-        "Z": 3.135
+        "X": 1.728,
+        "Y": 0.04,
+        "Z": 3.14
       },
       "Scale": {
         "X": 15.0,
@@ -127,6 +131,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         3.859210252761841,
         8.612778663635254,
@@ -134,6 +140,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -147,6 +155,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -214,6 +223,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         3.859210252761841,
         8.612778663635254,
@@ -221,6 +232,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -234,6 +247,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -271,7 +285,6 @@
     "Children": [
       {
         "LightSphereGreen": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -305,6 +318,8 @@
               0.0,
               0.0
             ],
+            "Continuous": false,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
               1.0,
               1.0,
@@ -312,10 +327,12 @@
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              -10.0,
+              -15.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -325,6 +342,7 @@
               0.0
             ],
             "radius": 2.080106019973755,
+            "restitution": 0.0,
             "shape": 0,
             "trigger": true,
             "type": 1,
@@ -386,7 +404,6 @@
         }
       }
     ],
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -420,6 +437,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.2504346370697021,
         1.2504857778549194,
@@ -427,10 +446,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 3.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -440,6 +461,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -474,10 +496,101 @@
     }
   },
   "LightBox id7": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        6.164144992828369,
+        13.008635520935059,
+        1.8487178087234497
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 6.165,
+        "Y": 13.011,
+        "Z": 1.849
+      },
+      "Translation": {
+        "X": 23.859,
+        "Y": 6.246,
+        "Z": -101.751
+      },
+      "moveX": true,
+      "moveY": false,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": true,
+      "rotateZ": false
+    }
+  },
+  "LightBox id7 id4": {
     "Children": [
       {
         "LightSphereGreen": {
-          "LightEffect": null,
           "ModelComponent": {
             "Materials": [
               {
@@ -511,6 +624,8 @@
               0.0,
               0.0
             ],
+            "Continuous": false,
+            "angulardrag": 0.05000000074505806,
             "boundingbox": [
               1.0,
               1.0,
@@ -518,10 +633,12 @@
             ],
             "controltype": 2,
             "customGravity": false,
+            "drag": 0.0,
+            "friction": 0.6000000238418579,
             "mass": 1.0,
             "pGravity": [
               0.0,
-              -10.0,
+              -15.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -530,7 +647,8 @@
               1.0,
               0.0
             ],
-            "radius": 3.8279364109039307,
+            "radius": 3.8279411792755127,
+            "restitution": 0.0,
             "shape": 0,
             "trigger": true,
             "type": 1,
@@ -574,13 +692,13 @@
             },
             "Scale": {
               "X": 3.828,
-              "Y": 3.828,
+              "Y": 3.829,
               "Z": 3.828
             },
             "Translation": {
-              "X": 0.0,
-              "Y": 4.952,
-              "Z": -0.005
+              "X": -0.099,
+              "Y": 3.391,
+              "Z": -0.685
             },
             "moveX": true,
             "moveY": true,
@@ -592,7 +710,6 @@
         }
       }
     ],
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -626,6 +743,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.8486418724060059,
         1.8487205505371094,
@@ -633,10 +752,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 5.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -646,6 +767,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -667,9 +789,469 @@
         "Z": 1.849
       },
       "Translation": {
-        "X": 28.212,
+        "X": 25.385,
         "Y": 6.246,
-        "Z": -96.725
+        "Z": -90.881
+      },
+      "moveX": true,
+      "moveY": false,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": true,
+      "rotateZ": false
+    }
+  },
+  "LightBox id7 id5": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        6.164156436920166,
+        13.008564949035645,
+        1.8487186431884766
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -1.57,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 6.165,
+        "Y": 13.011,
+        "Z": 1.849
+      },
+      "Translation": {
+        "X": 24.848,
+        "Y": 6.246,
+        "Z": -98.109
+      },
+      "moveX": true,
+      "moveY": false,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": true,
+      "rotateZ": false
+    }
+  },
+  "LightBox id7 id5 id6": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        6.164144992828369,
+        13.008635520935059,
+        1.8487178087234497
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 6.165,
+        "Y": 13.011,
+        "Z": 1.849
+      },
+      "Translation": {
+        "X": 35.995,
+        "Y": 6.246,
+        "Z": -101.751
+      },
+      "moveX": true,
+      "moveY": false,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": true,
+      "rotateZ": false
+    }
+  },
+  "LightBox id7 id5 id6 id9": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        6.164144992828369,
+        13.008635520935059,
+        1.8487178087234497
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 6.165,
+        "Y": 13.011,
+        "Z": 1.849
+      },
+      "Translation": {
+        "X": 29.757,
+        "Y": 6.246,
+        "Z": -101.751
+      },
+      "moveX": true,
+      "moveY": false,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": true,
+      "rotateZ": false
+    }
+  },
+  "LightBox id7 id5 id7": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        6.164164066314697,
+        25.540481567382813,
+        13.783287048339844
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.068,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 6.165,
+        "Y": 25.545,
+        "Z": 13.785
+      },
+      "Translation": {
+        "X": 42.528,
+        "Y": 6.246,
+        "Z": -88.148
+      },
+      "moveX": true,
+      "moveY": false,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": true,
+      "rotateZ": false
+    }
+  },
+  "LightBox id7 id5 id8": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        6.164248943328857,
+        29.499513626098633,
+        7.998793601989746
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -1.57,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 6.165,
+        "Y": 29.505,
+        "Z": 8.0
+      },
+      "Translation": {
+        "X": 14.107,
+        "Y": 6.246,
+        "Z": -86.996
       },
       "moveX": true,
       "moveY": false,
@@ -1217,6 +1799,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0,
         1.0,
@@ -1224,6 +1808,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1237,6 +1823,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": false,
       "type": 0,
@@ -1304,13 +1891,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         5.073604106903076,
-        19.726926803588867,
+        32.71739959716797,
         5.073601245880127
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1324,6 +1915,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1377,7 +1969,7 @@
       },
       "Scale": {
         "X": 5.074,
-        "Y": 19.727,
+        "Y": 32.718,
         "Z": 5.074
       },
       "Translation": {
@@ -1427,13 +2019,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        5.073514461517334,
-        19.726797103881836,
-        5.07358455657959
+        5.073516845703125,
+        74.58870697021484,
+        5.073589324951172
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1447,6 +2043,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1495,8 +2092,136 @@
     "Transform": {
       "Rotation": {
         "X": -0.837,
+        "Y": 1.123,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 5.074,
+        "Y": 74.589,
+        "Z": 5.074
+      },
+      "Translation": {
+        "X": -13.992,
+        "Y": -3.118,
+        "Z": 117.677
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightRed id2 id4 id1": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        5.073514461517334,
+        19.726806640625,
+        5.073585033416748
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
         "Y": 0.0,
         "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 1.0471975803375244,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": -0.837,
+        "Y": 1.206,
+        "Z": -0.0
       },
       "Scale": {
         "X": 5.074,
@@ -1504,7 +2229,7 @@
         "Z": 5.074
       },
       "Translation": {
-        "X": -14.267,
+        "X": -30.458,
         "Y": -3.118,
         "Z": 117.677
       },
@@ -1550,13 +2275,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         5.073278903961182,
-        19.726926803588867,
-        5.073606967926025
+        53.300575256347656,
+        5.073611259460449
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1570,6 +2299,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1623,7 +2353,7 @@
       },
       "Scale": {
         "X": 5.073,
-        "Y": 19.727,
+        "Y": 53.301,
         "Z": 5.074
       },
       "Translation": {
@@ -1673,13 +2403,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        5.073270797729492,
-        19.726930618286133,
-        5.073602199554443
+        5.073269844055176,
+        33.884315490722656,
+        5.073598861694336
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1693,6 +2427,7 @@
         0.0
       ],
       "radius": 19.726919174194336,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1740,19 +2475,147 @@
     },
     "Transform": {
       "Rotation": {
-        "X": 0.588,
+        "X": 1.706,
         "Y": 0.653,
         "Z": 0.149
       },
       "Scale": {
         "X": 5.073,
-        "Y": 19.727,
+        "Y": 33.884,
         "Z": 5.074
       },
       "Translation": {
-        "X": -6.782,
-        "Y": 5.63,
-        "Z": 18.271
+        "X": -18.31,
+        "Y": 3.899,
+        "Z": 27.188
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightRed id2 id6 id8 id1": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        5.073268413543701,
+        33.88435363769531,
+        5.07360315322876
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 19.726919174194336,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 1.0471975803375244,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.109,
+        "Y": 0.653,
+        "Z": 0.149
+      },
+      "Scale": {
+        "X": 5.073,
+        "Y": 33.884,
+        "Z": 5.074
+      },
+      "Translation": {
+        "X": -5.943,
+        "Y": 5.551,
+        "Z": 15.471
       },
       "moveX": true,
       "moveY": true,
@@ -1796,13 +2659,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        7.254797458648682,
-        28.209463119506836,
-        7.255255222320557
+        7.2548041343688965,
+        28.209436416625977,
+        7.255256175994873
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1816,6 +2683,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1873,7 +2741,7 @@
         "Z": 7.255
       },
       "Translation": {
-        "X": 16.456,
+        "X": 21.895,
         "Y": 10.543,
         "Z": -5.649
       },
@@ -1919,13 +2787,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        5.0732879638671875,
-        19.7269344329834,
+        5.073244094848633,
+        37.84464645385742,
         5.0735673904418945
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -1939,6 +2811,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -1992,7 +2865,7 @@
       },
       "Scale": {
         "X": 5.073,
-        "Y": 19.727,
+        "Y": 37.845,
         "Z": 5.074
       },
       "Translation": {
@@ -2042,13 +2915,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         5.073285102844238,
-        19.72690773010254,
+        35.37769317626953,
         5.073606967926025
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2062,6 +2939,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -2115,7 +2993,7 @@
       },
       "Scale": {
         "X": 5.073,
-        "Y": 19.727,
+        "Y": 35.378,
         "Z": 5.074
       },
       "Translation": {
@@ -2165,13 +3043,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         5.073285102844238,
-        19.72690773010254,
+        36.53226852416992,
         5.073606967926025
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2185,6 +3067,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -2238,13 +3121,141 @@
       },
       "Scale": {
         "X": 5.073,
-        "Y": 19.727,
+        "Y": 36.532,
         "Z": 5.074
       },
       "Translation": {
         "X": 42.998,
         "Y": 11.547,
         "Z": -109.328
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightRed id2 id6 id8 id9 id3": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_red"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        7.254817485809326,
+        28.209383010864258,
+        7.255258083343506
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 0,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 1.0471975803375244,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": -0.169,
+        "Y": 0.087,
+        "Z": 0.113
+      },
+      "Scale": {
+        "X": 7.255,
+        "Y": 28.209,
+        "Z": 7.255
+      },
+      "Translation": {
+        "X": 17.337,
+        "Y": 10.543,
+        "Z": -5.649
       },
       "moveX": true,
       "moveY": true,
@@ -2288,6 +3299,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0,
         1.0,
@@ -2295,6 +3308,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2308,6 +3323,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": false,
       "type": 0,
@@ -2375,13 +3391,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        4.558799743652344,
-        17.836917877197266,
-        4.55879020690918
+        4.558801174163818,
+        49.999794006347656,
+        4.55802059173584
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2395,6 +3415,105 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 1.71
+      },
+      "Scale": {
+        "X": 4.559,
+        "Y": 50.0,
+        "Z": 4.558
+      },
+      "Translation": {
+        "X": -13.475,
+        "Y": -5.133,
+        "Z": 132.888
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightYellow id1 id2": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        4.558799743652344,
+        17.836917877197266,
+        4.55879020690918
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -2468,13 +3587,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         4.558719158172607,
-        17.8369083404541,
+        40.404762268066406,
         4.558807849884033
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2488,6 +3611,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -2531,7 +3655,7 @@
       },
       "Scale": {
         "X": 4.559,
-        "Y": 17.837,
+        "Y": 40.405,
         "Z": 4.559
       },
       "Translation": {
@@ -2581,13 +3705,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        4.55877161026001,
-        17.836894989013672,
-        4.558785438537598
+        4.558763027191162,
+        23.89633560180664,
+        4.5587921142578125
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2601,6 +3729,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -2648,19 +3777,147 @@
     },
     "Transform": {
       "Rotation": {
-        "X": 1.695,
+        "X": 1.599,
+        "Y": -0.279,
+        "Z": 0.173
+      },
+      "Scale": {
+        "X": 4.559,
+        "Y": 23.896,
+        "Z": 4.559
+      },
+      "Translation": {
+        "X": -0.909,
+        "Y": 2.758,
+        "Z": 32.079
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightYellow id1 id5 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        4.55877161026001,
+        143.27169799804688,
+        4.5587897300720215
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "SpotLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.08823537826538086,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "Direction": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "FallOff": 0.0,
+      "InnerAngle": 0.2617993950843811,
+      "OuterAngle": 1.0471975803375244,
+      "PADDING": -431602080.0,
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 1.598,
         "Y": 0.031,
         "Z": 0.182
       },
       "Scale": {
         "X": 4.559,
-        "Y": 17.837,
+        "Y": 143.272,
         "Z": 4.559
       },
       "Translation": {
-        "X": -0.161,
-        "Y": -1.325,
-        "Z": 31.964
+        "X": -0.076,
+        "Y": -1.789,
+        "Z": 31.951
       },
       "moveX": true,
       "moveY": true,
@@ -2704,13 +3961,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        4.558796405792236,
-        17.836957931518555,
-        4.558799743652344
+        4.558793067932129,
+        17.836950302124023,
+        4.55879020690918
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2724,6 +3985,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -2761,7 +4023,7 @@
     },
     "Transform": {
       "Rotation": {
-        "X": -0.368,
+        "X": 0.204,
         "Y": 0.075,
         "Z": 0.191
       },
@@ -2773,7 +4035,7 @@
       "Translation": {
         "X": -6.67,
         "Y": 3.824,
-        "Z": 15.119
+        "Z": 16.831
       },
       "moveX": true,
       "moveY": true,
@@ -2817,13 +4079,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        4.558793067932129,
-        17.836957931518555,
+        4.558791160583496,
+        27.38172149658203,
         4.558801174163818
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2837,6 +4103,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 2,
       "trigger": true,
       "type": 1,
@@ -2876,17 +4143,371 @@
       "Rotation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": -0.521
+        "Z": -1.589
       },
       "Scale": {
         "X": 4.559,
-        "Y": 17.837,
+        "Y": 27.382,
         "Z": 4.559
       },
       "Translation": {
-        "X": 34.918,
-        "Y": 10.314,
+        "X": 34.788,
+        "Y": 15.026,
         "Z": -52.603
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightYellow id1 id5 id7 id11 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        2.9998624324798584,
+        27.381715774536133,
+        2.9998691082000732
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.29411768913269043
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.589
+      },
+      "Scale": {
+        "X": 3.0,
+        "Y": 27.382,
+        "Z": 3.0
+      },
+      "Translation": {
+        "X": 33.289,
+        "Y": 8.853,
+        "Z": -52.603
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightYellow id1 id5 id7 id11 id0 id3": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "Cylinder3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        4.558791160583496,
+        27.381710052490234,
+        4.558801174163818
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.29411768913269043
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.589
+      },
+      "Scale": {
+        "X": 4.559,
+        "Y": 27.382,
+        "Z": 4.559
+      },
+      "Translation": {
+        "X": 34.788,
+        "Y": 2.009,
+        "Z": -52.603
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "LightYellow id1 id5 id7 id11 id2": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "ghost_color_green"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        31.44025993347168,
+        27.381710052490234,
+        1.5781415700912476
+      ],
+      "controltype": 0,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 2,
+      "trigger": true,
+      "type": 1,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PointLightComponent": {
+      "Ambient": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Diffuse": {
+        "W": 1.0,
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.29411768913269043
+      },
+      "Point": {
+        "W": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "PuzzleLightComponent": {
+      "LightColor": 1,
+      "UseBlue": true,
+      "UseGreen": true,
+      "UseRed": true
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.589
+      },
+      "Scale": {
+        "X": 31.442,
+        "Y": 27.382,
+        "Z": 1.578
+      },
+      "Translation": {
+        "X": 34.752,
+        "Y": 1.052,
+        "Z": -36.572
       },
       "moveX": true,
       "moveY": true,
@@ -2930,6 +4551,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000001192092896,
         1.000000238418579,
@@ -2937,6 +4560,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -2950,6 +4575,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 7,
       "trigger": false,
       "type": 0,
@@ -3047,6 +4673,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         5.055552959442139,
         1.7190477848052979,
@@ -3054,6 +4682,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -3067,6 +4697,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3134,6 +4765,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         3.8592004776000977,
         1.3122494220733643,
@@ -3141,6 +4774,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -3154,6 +4789,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3221,6 +4857,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         3.8592004776000977,
         1.3122494220733643,
@@ -3228,6 +4866,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -3241,6 +4881,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3308,6 +4949,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         3.8592004776000977,
         1.3122494220733643,
@@ -3315,6 +4958,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -3328,6 +4973,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3452,6 +5098,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         5.271935939788818,
         8.327564239501953,
@@ -3459,6 +5107,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -3472,6 +5122,7 @@
         0.0
       ],
       "radius": 8.327564239501953,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": true,
       "type": 1,
@@ -3526,13 +5177,14 @@
     }
   },
   "Player2": {
-    "LightEffect": null,
     "Physics": {
       "Acceleration": [
         0.0,
         0.0,
         0.0
       ],
+      "Continuous": true,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0,
         1.0,
@@ -3540,10 +5192,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3553,6 +5207,7 @@
         0.0
       ],
       "radius": 1.5000061988830566,
+      "restitution": 0.0,
       "shape": 3,
       "trigger": false,
       "type": 0,
@@ -3567,7 +5222,7 @@
       "green": false,
       "jumpHeight": 20.0,
       "red": false,
-      "speed": 40.0
+      "speed": 25.0
     },
     "Sound": {
       "paths": [
@@ -3592,7 +5247,7 @@
       },
       "Translation": {
         "X": -20.809,
-        "Y": -3.648,
+        "Y": -3.655,
         "Z": 136.969
       },
       "moveX": true,
@@ -3604,7 +5259,6 @@
     }
   },
   "Push Box": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -3638,6 +5292,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         2.067744493484497,
         2.0677435398101807,
@@ -3645,10 +5301,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3658,6 +5316,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3680,7 +5339,7 @@
       },
       "Translation": {
         "X": -0.048,
-        "Y": -6.939,
+        "Y": -6.944,
         "Z": 0.735
       },
       "moveX": true,
@@ -3692,7 +5351,6 @@
     }
   },
   "Push Box id14": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -3726,6 +5384,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         2.067744731903076,
         2.067744731903076,
@@ -3733,10 +5393,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3746,6 +5408,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3757,9 +5420,9 @@
     },
     "Transform": {
       "Rotation": {
-        "X": 0.002,
+        "X": 0.001,
         "Y": -0.075,
-        "Z": 0.002
+        "Z": 0.001
       },
       "Scale": {
         "X": 2.068,
@@ -3768,7 +5431,7 @@
       },
       "Translation": {
         "X": 0.091,
-        "Y": -6.95,
+        "Y": -6.945,
         "Z": -1.33
       },
       "moveX": true,
@@ -3780,7 +5443,6 @@
     }
   },
   "Push Box id14 id15": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -3814,6 +5476,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         2.890109062194824,
         2.8901095390319824,
@@ -3821,10 +5485,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3834,6 +5500,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3845,9 +5512,9 @@
     },
     "Transform": {
       "Rotation": {
-        "X": 0.003,
-        "Y": 0.535,
-        "Z": 0.007
+        "X": 0.001,
+        "Y": 0.536,
+        "Z": 0.006
       },
       "Scale": {
         "X": 2.89,
@@ -3856,7 +5523,7 @@
       },
       "Translation": {
         "X": -0.861,
-        "Y": -4.465,
+        "Y": -4.47,
         "Z": 0.061
       },
       "moveX": true,
@@ -3868,7 +5535,6 @@
     }
   },
   "Push Box id14 id15 id16": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -3902,6 +5568,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         2.667391300201416,
         2.667391777038574,
@@ -3909,10 +5577,12 @@
       ],
       "controltype": 1,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3922,6 +5592,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -3944,7 +5615,7 @@
       },
       "Translation": {
         "X": 0.746,
-        "Y": -4.925,
+        "Y": -4.932,
         "Z": 3.007
       },
       "moveX": true,
@@ -3956,7 +5627,6 @@
     }
   },
   "Push Box id14 id15 id16 id17": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -3990,17 +5660,21 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        3.2478811740875244,
+        3.2478809356689453,
         3.2480151653289795,
-        3.248014211654663
+        3.248016595840454
       ],
       "controltype": 1,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 15.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -4010,6 +5684,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4022,8 +5697,8 @@
     "Transform": {
       "Rotation": {
         "X": 0.001,
-        "Y": -0.833,
-        "Z": -0.001
+        "Y": -0.83,
+        "Z": -0.002
       },
       "Scale": {
         "X": 3.248,
@@ -4031,9 +5706,9 @@
         "Z": 3.248
       },
       "Translation": {
-        "X": 17.23,
-        "Y": 4.038,
-        "Z": -4.231
+        "X": 17.264,
+        "Y": 4.031,
+        "Z": -4.193
       },
       "moveX": true,
       "moveY": true,
@@ -4044,7 +5719,6 @@
     }
   },
   "Push Box id14 id15 id16 id17 id2": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -4078,17 +5752,21 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        3.2478816509246826,
-        3.2480151653289795,
-        3.2480146884918213
+        3.2478814125061035,
+        3.246596574783325,
+        3.2480149269104004
       ],
       "controltype": 1,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 15.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -4098,6 +5776,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4110,18 +5789,18 @@
     "Transform": {
       "Rotation": {
         "X": 0.0,
-        "Y": -0.833,
-        "Z": -0.001
+        "Y": -0.83,
+        "Z": -0.002
       },
       "Scale": {
         "X": 3.248,
-        "Y": 3.248,
+        "Y": 3.247,
         "Z": 3.248
       },
       "Translation": {
-        "X": 15.132,
-        "Y": 4.038,
-        "Z": -6.61
+        "X": 15.15,
+        "Y": 4.031,
+        "Z": -6.597
       },
       "moveX": true,
       "moveY": true,
@@ -4132,7 +5811,6 @@
     }
   },
   "Push Box id14 id15 id16 id17 id2 id4": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -4166,17 +5844,21 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        3.247882604598999,
+        3.2478835582733154,
         3.2480151653289795,
-        3.2480156421661377
+        3.248016595840454
       ],
       "controltype": 1,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 15.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -4186,6 +5868,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4207,9 +5890,285 @@
         "Z": 3.248
       },
       "Translation": {
-        "X": 19.822,
-        "Y": 4.038,
-        "Z": -0.092
+        "X": 16.663,
+        "Y": 7.283,
+        "Z": -4.967
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Push Box id14 id15 id16 id17 id2 id4 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        5.327672004699707,
+        3.248020887374878,
+        3.2480175495147705
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 20.0,
+      "pGravity": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.843,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 5.328,
+        "Y": 3.248,
+        "Z": 3.248
+      },
+      "Translation": {
+        "X": 20.409,
+        "Y": 3.751,
+        "Z": -1.34
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Push Box id14 id15 id16 id17 id2 id4 id1": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        3.2478840351104736,
+        3.2480151653289795,
+        3.2480170726776123
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 15.0,
+      "pGravity": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.843,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 3.248,
+        "Y": 3.248,
+        "Z": 3.248
+      },
+      "Translation": {
+        "X": 19.524,
+        "Y": 7.283,
+        "Z": -2.802
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Push Box id14 id15 id16 id17 id2 id4 id1 id2": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        2.3384783267974854,
+        2.3385705947875977,
+        2.3385727405548096
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 12.0,
+      "pGravity": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.843,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 2.339,
+        "Y": 2.339,
+        "Z": 2.339
+      },
+      "Translation": {
+        "X": 21.575,
+        "Y": 6.86,
+        "Z": -0.501
       },
       "moveX": true,
       "moveY": true,
@@ -4220,7 +6179,6 @@
     }
   },
   "Push Box id14 id15 id16 id17 id2 id9": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -4254,17 +6212,21 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        3.247882127761841,
-        3.2480151653289795,
-        3.2480151653289795
+        3.9998555183410645,
+        4.00001859664917,
+        4.000019073486328
       ],
       "controltype": 1,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 8.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -4274,6 +6236,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4290,13 +6253,13 @@
         "Z": 0.0
       },
       "Scale": {
-        "X": 3.248,
-        "Y": 3.248,
-        "Z": 3.248
+        "X": 4.0,
+        "Y": 4.0,
+        "Z": 4.0
       },
       "Translation": {
         "X": 0.307,
-        "Y": -1.846,
+        "Y": -1.853,
         "Z": 26.356
       },
       "moveX": true,
@@ -4308,7 +6271,6 @@
     }
   },
   "Push Box id14 id15 id16 id17 id2 id9 id10": {
-    "LightEffect": null,
     "ModelComponent": {
       "Materials": [
         {
@@ -4342,17 +6304,21 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        3.247882604598999,
+        3.2478835582733154,
         3.2480151653289795,
-        3.2480156421661377
+        3.248016595840454
       ],
       "controltype": 1,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 5.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -4362,6 +6328,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4383,8 +6350,8 @@
         "Z": 3.248
       },
       "Translation": {
-        "X": -14.908,
-        "Y": -2.115,
+        "X": -15.068,
+        "Y": -2.122,
         "Z": 118.125
       },
       "moveX": true,
@@ -4395,8 +6362,7 @@
       "rotateZ": true
     }
   },
-  "Push Box id14 id15 id16 id17 id20": {
-    "LightEffect": null,
+  "Push Box id14 id15 id16 id17 id2 id9 id10 id0": {
     "ModelComponent": {
       "Materials": [
         {
@@ -4430,17 +6396,21 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        2.460616111755371,
-        2.46061635017395,
-        2.46061635017395
+        3.2478840351104736,
+        3.2480151653289795,
+        3.2480170726776123
       ],
       "controltype": 1,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 5.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -4450,6 +6420,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4461,19 +6432,19 @@
     },
     "Transform": {
       "Rotation": {
-        "X": -0.0,
-        "Y": 0.205,
+        "X": 0.0,
+        "Y": -0.843,
         "Z": 0.0
       },
       "Scale": {
-        "X": 2.461,
-        "Y": 2.461,
-        "Z": 2.461
+        "X": 3.248,
+        "Y": 3.248,
+        "Z": 3.248
       },
       "Translation": {
-        "X": 18.197,
-        "Y": 6.465,
-        "Z": -89.632
+        "X": -17.659,
+        "Y": -2.725,
+        "Z": 133.31
       },
       "moveX": true,
       "moveY": true,
@@ -4483,8 +6454,7 @@
       "rotateZ": true
     }
   },
-  "Push Box id14 id15 id16 id18": {
-    "LightEffect": null,
+  "Push Box id14 id15 id16 id17 id2 id9 id10 id0 id3": {
     "ModelComponent": {
       "Materials": [
         {
@@ -4518,17 +6488,21 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        3.359853744506836,
-        3.36008620262146,
-        3.360084295272827
+        3.2478854656219482,
+        3.2480149269104004,
+        3.248019218444824
       ],
       "controltype": 1,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -15.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -4538,6 +6512,467 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -1.55,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 3.248,
+        "Y": 3.248,
+        "Z": 3.248
+      },
+      "Translation": {
+        "X": -20.782,
+        "Y": -0.31,
+        "Z": 81.906
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Push Box id14 id15 id16 id17 id2 id9 id10 id0 id3 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        3.2478854656219482,
+        3.2480151653289795,
+        3.248018503189087
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 5.0,
+      "pGravity": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.843,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 3.248,
+        "Y": 3.248,
+        "Z": 3.248
+      },
+      "Translation": {
+        "X": -30.351,
+        "Y": -2.662,
+        "Z": 119.156
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Push Box id14 id15 id16 id17 id2 id9 id10 id0 id3 id1": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        3.247885227203369,
+        3.2480149269104004,
+        3.248018980026245
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 2.0,
+      "pGravity": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -1.55,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 3.248,
+        "Y": 3.248,
+        "Z": 3.248
+      },
+      "Translation": {
+        "X": -24.36,
+        "Y": 3.042,
+        "Z": 81.766
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Push Box id14 id15 id16 id17 id2 id9 id10 id0 id3 id1 id2": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        3.24788498878479,
+        3.2480149269104004,
+        3.248018741607666
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.5,
+      "pGravity": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -1.55,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 3.248,
+        "Y": 3.248,
+        "Z": 3.248
+      },
+      "Translation": {
+        "X": -24.153,
+        "Y": -0.31,
+        "Z": 81.879
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Push Box id14 id15 id16 id17 id20": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        2.460616111755371,
+        2.46061635017395,
+        2.46061635017395
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 4.0,
+      "pGravity": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.205,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 2.461,
+        "Y": 2.461,
+        "Z": 2.461
+      },
+      "Translation": {
+        "X": 18.607,
+        "Y": 6.458,
+        "Z": -106.687
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  },
+  "Push Box id14 id15 id16 id18": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_cliffRock"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "cube2"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        3.359853744506836,
+        3.36008620262146,
+        3.360084295272827
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4560,7 +6995,7 @@
       },
       "Translation": {
         "X": 6.063,
-        "Y": -6.306,
+        "Y": -6.313,
         "Z": -4.918
       },
       "moveX": true,
@@ -4605,6 +7040,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         29.937734603881836,
         1.2152001857757568,
@@ -4612,6 +7049,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4625,6 +7064,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4692,6 +7132,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         52.179256439208984,
         1.2152001857757568,
@@ -4699,6 +7141,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4712,6 +7156,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4779,6 +7224,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         52.179500579833984,
         1.215399980545044,
@@ -4786,6 +7233,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4799,6 +7248,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4866,6 +7316,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         52.179500579833984,
         1.215399980545044,
@@ -4873,6 +7325,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4886,6 +7340,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -4953,13 +7408,17 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
-        99.9942855834961,
+        99.97843170166016,
         50.00013732910156,
         200.00074768066406
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -4973,6 +7432,7 @@
         0.0
       ],
       "radius": 200.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": true,
       "type": 1,
@@ -4989,14 +7449,14 @@
         "Z": 0.0
       },
       "Scale": {
-        "X": 99.994,
+        "X": 99.978,
         "Y": 50.0,
         "Z": 200.0
       },
       "Translation": {
         "X": -16.194,
         "Y": -37.105,
-        "Z": 173.25
+        "Z": 178.921
       },
       "moveX": true,
       "moveY": true,
@@ -5040,6 +7500,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         6.339556694030762,
         1.0421900749206543,
@@ -5047,6 +7509,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5060,6 +7524,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5127,6 +7592,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         36.32379150390625,
         7.3797993659973145,
@@ -5134,6 +7601,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5147,6 +7616,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5214,6 +7684,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         8.49500560760498,
         7.3797993659973145,
@@ -5221,6 +7693,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5234,6 +7708,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5301,6 +7776,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         36.32379150390625,
         7.3797993659973145,
@@ -5308,6 +7785,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5321,6 +7800,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5388,6 +7868,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         3.8592023849487305,
         1.0421900749206543,
@@ -5395,6 +7877,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5408,6 +7892,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5475,6 +7960,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         15.694890975952148,
         11.822500228881836,
@@ -5482,6 +7969,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5495,6 +7984,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5562,6 +8052,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         49.0071907043457,
         12.533638000488281,
@@ -5569,6 +8061,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5582,6 +8076,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5649,6 +8144,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         49.0071907043457,
         12.533638000488281,
@@ -5656,6 +8153,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5669,6 +8168,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5736,6 +8236,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         49.0071907043457,
         12.533638000488281,
@@ -5743,6 +8245,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5756,6 +8260,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5823,6 +8328,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         49.0071907043457,
         12.533638000488281,
@@ -5830,6 +8337,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5843,6 +8352,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5910,6 +8420,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -5917,6 +8429,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -5930,6 +8444,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -5997,6 +8512,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         14.842453002929688,
@@ -6004,6 +8521,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6017,6 +8536,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6084,6 +8604,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6091,6 +8613,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6104,6 +8628,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6171,6 +8696,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6178,6 +8705,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6191,6 +8720,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6258,6 +8788,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6265,6 +8797,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6278,6 +8812,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6345,6 +8880,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6352,6 +8889,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6365,6 +8904,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6432,6 +8972,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6439,6 +8981,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6452,6 +8996,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6519,6 +9064,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6526,7 +9073,9 @@
       ],
       "controltype": 0,
       "customGravity": false,
-      "mass": 1.0,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 10.0,
       "pGravity": [
         0.0,
         -10.0,
@@ -6539,6 +9088,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6606,6 +9156,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         18.242244720458984,
@@ -6613,6 +9165,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6626,6 +9180,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6693,6 +9248,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6700,6 +9257,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6713,6 +9272,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6780,6 +9340,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6787,6 +9349,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6800,6 +9364,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,
@@ -6867,6 +9432,8 @@
         0.0,
         0.0
       ],
+      "Continuous": false,
+      "angulardrag": 0.05000000074505806,
       "boundingbox": [
         1.0000005960464478,
         9.34722900390625,
@@ -6874,6 +9441,8 @@
       ],
       "controltype": 0,
       "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
       "mass": 1.0,
       "pGravity": [
         0.0,
@@ -6887,6 +9456,7 @@
         0.0
       ],
       "radius": 1.0,
+      "restitution": 0.0,
       "shape": 1,
       "trigger": false,
       "type": 0,

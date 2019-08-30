@@ -1,0 +1,26 @@
+[ERR~19/03/27~14:12:27~engine/graphics/resourcepool.cpp:118] - Texture Default already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:12:27~engine/graphics/resourcepool.cpp:246] - Getting non-existing texture
+[ERR~19/03/27~14:12:27~engine/graphics/resourcepool.cpp:246] - Getting non-existing texture
+[DBG~19/03/27~14:12:28~engine/systems/uisystem.cpp:149] - Searching for UI...
+[DBG~19/03/27~14:12:28~engine/systems/uisystem.cpp:160] - Found potential UI `hud
+[DBG~19/03/27~14:12:28~engine/systems/uisystem.cpp:160] - Found potential UI `test_ui
+[DBG~19/03/27~14:12:28~engine/systems/uisystem.cpp:167] - Done.
+[WRN~19/03/27~14:12:35~engine/systems/uisystem.cpp:310] - Root UI element was null. Attempting to create now.
+[DBG~19/03/27~14:12:35~engine/systems/uisystem.cpp:319] - Loading UI Element.
+[ERR~19/03/27~14:12:35~engine/utilities/util.cpp:238] - 1280
+[DBG~19/03/27~14:12:35~engine/systems/uisystem.cpp:324] - Done.
+[DBG~19/03/27~14:13:24~engine/components/puzzlelightcomponent.cpp:49] - Flashlight toggling
+[DBG~19/03/27~14:13:50~engine/components/puzzlelightcomponent.cpp:49] - Flashlight toggling
+[DBG~19/03/27~14:14:02~engine/components/puzzlelightcomponent.cpp:49] - Flashlight toggling
+[ERR~19/03/27~14:14:07~engine/graphics/resourcepool.cpp:118] - Texture Continue Button Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:07~engine/graphics/resourcepool.cpp:118] - Texture Main Menu Button Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Play Button Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Credits Button Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Quit Button Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Critical Logo Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Background already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Play Button Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Credits Button Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Quit Button Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Critical Logo Texture already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
+[ERR~19/03/27~14:14:08~engine/graphics/resourcepool.cpp:118] - Texture Background already exists and will not be overwritten. Use DeleteTexture to replace existing textures.
