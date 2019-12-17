@@ -5,6 +5,7 @@ The repository also contains the actual game which is a 3D Light Combination Puz
 
 Features of the editor include:
   *Level Loading/Saving
+  
   *Game object creation, deletion, and multi selection
   *installing 3D gizmo that allows for object translation, rotation and scaling
   *game object prefabs
