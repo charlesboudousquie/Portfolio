@@ -4,6 +4,7 @@ This repository contains the 3d Game Editor I created to help with the developme
 The repository also contains the actual game which is a 3D Light Combination Puzzle Survival Game.
 
 Features of the editor include:
+  
   *Level Loading/Saving
   
   *Game object creation, deletion, and multi selection
