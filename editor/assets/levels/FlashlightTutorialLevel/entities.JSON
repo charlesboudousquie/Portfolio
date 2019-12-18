@@ -846,9 +846,9 @@
     },
     "Transform": {
       "Rotation": {
-        "X": 1.754,
-        "Y": -0.126,
-        "Z": 3.139
+        "X": -1.503,
+        "Y": -1.157,
+        "Z": 0.002
       },
       "Scale": {
         "X": 15.0,
@@ -856,9 +856,9 @@
         "Z": 15.0
       },
       "Translation": {
-        "X": -8.083,
-        "Y": 4.551,
-        "Z": -29.209
+        "X": -30.102,
+        "Y": 5.995,
+        "Z": 5.72
       },
       "moveX": true,
       "moveY": true,
@@ -1482,6 +1482,194 @@
       "rotateZ": true
     }
   },
+  "Object#17179869279": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "HeavyBox3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        5.674230575561523,
+        0.783781111240387,
+        14.271535873413086
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 5.674,
+        "Y": 0.783,
+        "Z": 14.271
+      },
+      "Translation": {
+        "X": 24.516,
+        "Y": 10.627,
+        "Z": -48.541
+      },
+      "moveX": false,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": false,
+      "rotateZ": false
+    }
+  },
+  "Object#17179869279 id0": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "pbr_tilesBroken"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "HeavyBox3"
+    },
+    "Physics": {
+      "Acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ChangeTime": 2.0,
+      "Continuous": false,
+      "LightAffected": true,
+      "angulardrag": 0.05000000074505806,
+      "boundingbox": [
+        4.437248229980469,
+        3.8682451248168945,
+        6.6321024894714355
+      ],
+      "controltype": 1,
+      "customGravity": false,
+      "drag": 0.0,
+      "friction": 0.6000000238418579,
+      "mass": 1.0,
+      "pGravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "planeConstant": 1.0,
+      "planeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "restitution": 0.0,
+      "shape": 1,
+      "trigger": false,
+      "type": 0,
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 4.437,
+        "Y": 3.864,
+        "Z": 6.632
+      },
+      "Translation": {
+        "X": -7.671,
+        "Y": 10.627,
+        "Z": -13.575
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": false,
+      "rotateY": false,
+      "rotateZ": false
+    }
+  },
   "Object#206158430208": {
     "ModelComponent": {
       "Materials": [
@@ -1678,7 +1866,7 @@
         0.0
       ],
       "ChangeTime": 2.0,
-      "Continuous": false,
+      "Continuous": true,
       "LightAffected": true,
       "angulardrag": 0.05000000074505806,
       "boundingbox": [
@@ -1704,7 +1892,7 @@
       ],
       "radius": 1.0,
       "restitution": 0.0,
-      "shape": 3,
+      "shape": 1,
       "trigger": false,
       "type": 0,
       "velocity": [
@@ -1718,10 +1906,10 @@
       "grabdistance": 5.0,
       "green": true,
       "holdingThreshold": 1.0,
-      "jumpHeight": 10.0,
+      "jumpHeight": 17.0,
       "red": true,
       "returnvelocity": 200.0,
-      "speed": 25.0,
+      "speed": 35.0,
       "strength": 50.0,
       "timetospeed": 0.10000000149011612
     },
@@ -1748,7 +1936,7 @@
       },
       "Translation": {
         "X": -5.934,
-        "Y": 9.289,
+        "Y": 7.809,
         "Z": -3.724
       },
       "moveX": true,
@@ -1795,7 +1983,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 6.435999870300293,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -1867,7 +2055,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.0799999237060547,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -1939,7 +2127,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2011,7 +2199,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2083,7 +2271,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2155,7 +2343,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2227,7 +2415,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2299,7 +2487,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2371,7 +2559,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2443,7 +2631,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2515,7 +2703,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2587,7 +2775,7 @@
         "Z": 0.0
       },
       "Diffuse": {
-        "W": 2.2780001163482666,
+        "W": 10.0,
         "X": 1.0,
         "Y": 1.0,
         "Z": 1.0
@@ -2820,7 +3008,7 @@
             "mass": 1.0,
             "pGravity": [
               0.0,
-              -10.0,
+              -20.0,
               0.0
             ],
             "planeConstant": 1.0,
@@ -2951,7 +3139,7 @@
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -20.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -3045,7 +3233,7 @@
       "mass": 1.0,
       "pGravity": [
         0.0,
-        0.0,
+        -20.0,
         0.0
       ],
       "planeConstant": 1.0,
@@ -4329,7 +4517,7 @@
       "mass": 1.0,
       "pGravity": [
         0.0,
-        -10.0,
+        -20.0,
         0.0
       ],
       "planeConstant": 1.0,

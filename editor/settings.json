@@ -31,14 +31,7 @@
             0.0
         ]
     },
-    "jump_height": 18.0,
-    "lantern_offset": {
-        "xyz": [
-            5.199999809265137,
-            3.25,
-            2.0
-        ]
-    },
+    "jump_height": 10.0,
     "levels_path": "assets/levels",
     "light_effect_anitgrav": -1.0,
     "light_effect_slow": 0.5,
@@ -47,13 +40,6 @@
     "master_volume": 0.0,
     "models_path": "assets/Models",
     "noclip": false,
-    "player_gravity": {
-        "xyz": [
-            0.0,
-            -30.0,
-            0.0
-        ]
-    },
     "player_speed": 25.0,
     "prefabs_path": "assets/Prefabs",
     "resolution_height": 480,
@@ -62,9 +48,8 @@
     "shaders_path": "assets/shaders",
     "skybox_path": "assets/skybox",
     "sounds_path": "assets/sounds",
-    "startup_level": "NorthYellowStarter2",
+    "startup_level": "SandboxLevel",
     "style_path": "assets/stylesheets",
     "textures_path": "assets/textures",
-    "ui_path": "assets/ui",
-    "volume": 1.0
+    "ui_path": "assets/ui"
 }
