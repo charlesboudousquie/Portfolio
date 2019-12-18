@@ -2,6 +2,8 @@
 
 This repository contains the 3d Game Editor I created to help with the development of our Junior Year custom engine game Lux Cymex.
 The repository also contains the actual game which is a 3D Light Combination Puzzle Survival Game.
+The game is centered around the player solving puzzles with different light cominations that can affect the
+physics and properties of objects.
 
 Features of the editor include:
   *Level Loading/Saving
@@ -14,3 +16,7 @@ Features of the editor include:
   *Props window (similar to Inspector window in Unity)
   *Console window
   *Entities window for list of objects in world
+
+When using Editor:
+  Press space to switch between Camera mode(moving around in the world) and Imgui mode(interacting with various
+  Imgui windows).
