@@ -6,6 +6,9 @@ The repository also contains the actual game which is a 3D Light Combination Puz
 The game is centered around the player solving puzzles with different light cominations that can affect the
 physics and properties of objects.
 
+![Lux Cymex GIF](game/demonstration.gif)
+
+
 Features of the editor include:
   
   *Level Loading/Saving  
