@@ -6,6 +6,8 @@ The repository also contains the actual game which is a 3D Light Combination Puz
 The game is centered around the player solving puzzles with different light cominations that can affect the
 physics and properties of objects.
 
+The game is located inside the folder LuxCymex. Double click the ProjectAbyss.exe file to launch the game.
+
 ![Lux Cymex GIF](game/demonstration.gif)
 
 
