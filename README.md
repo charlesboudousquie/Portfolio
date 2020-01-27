@@ -9,6 +9,9 @@ physics and properties of objects.
 The game is located inside the folder LuxCymex. Double click the ProjectAbyss.exe file to launch the game.
 
 ![Lux Cymex GIF](LuxCymex/demonstration.gif)
+![Lux Cymex PIC1](LuxCymex/floating_object.png)
+![Lux Cymex PIC2](LuxCymex/many_lights.png)
+![Lux Cymex PIC3](LuxCymex/highlighted_objects.png)
 
 
 Features of the editor include:
