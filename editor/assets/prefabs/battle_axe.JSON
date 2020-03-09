@@ -1,0 +1,57 @@
+{
+  "battle_axe": {
+    "ModelComponent": {
+      "Materials": [
+        {
+          "name": "MothColorMaterial"
+        }
+      ],
+      "MeshTransforms": [
+        {
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "ModelHandle": "axe"
+    },
+    "PrefabComponent": {
+      "Prefab Name": "battle_axe"
+    },
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 4.01,
+        "Y": 4.01,
+        "Z": 4.01
+      },
+      "Translation": {
+        "X": 32.559,
+        "Y": 55.018,
+        "Z": 140.181
+      },
+      "moveX": true,
+      "moveY": true,
+      "moveZ": true,
+      "rotateX": true,
+      "rotateY": true,
+      "rotateZ": true
+    }
+  }
+}
