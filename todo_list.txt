@@ -1,0 +1,5 @@
+Lux Cymex{
+add help button to editor to display controls.
+fix level with multiple ravines so player does not get stuck.
+fix editor exit button.
+}
