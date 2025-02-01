@@ -3,3 +3,8 @@ add help button to editor to display controls.
 fix level with multiple ravines so player does not get stuck.
 fix editor exit button.
 }
+
+Add and fixup content from these repos:
+https://github.com/charlesboudousquie/unreal_projects
+https://github.com/charlesboudousquie/senior_game
+https://github.com/jaysherson/ProjectAbyss/tree/f_Editor or https://github.com/jaysherson/ProjectAbyss/tree/Production
